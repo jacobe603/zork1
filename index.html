@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZORK I - Modern Web Edition</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: #00ff00;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            background: #2a2a2a;
+            border: 3px solid #00ff00;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 0 30px rgba(0, 255, 0, 0.4);
+            animation: glow 3s ease-in-out infinite;
+        }
+
+        @keyframes glow {
+            0%, 100% { box-shadow: 0 0 30px rgba(0, 255, 0, 0.4); }
+            50% { box-shadow: 0 0 50px rgba(0, 255, 0, 0.6); }
+        }
+
+        h1 {
+            font-size: 3em;
+            text-align: center;
+            margin-bottom: 20px;
+            text-shadow: 0 0 15px rgba(0, 255, 0, 0.7);
+            letter-spacing: 3px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #00cc00;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+
+        .description {
+            line-height: 1.8;
+            margin-bottom: 30px;
+            color: #e0e0e0;
+        }
+
+        .description p {
+            margin-bottom: 15px;
+        }
+
+        .features {
+            background: #1a1a1a;
+            border: 2px solid #00cc00;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        .features h2 {
+            color: #00ff00;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .features ul {
+            list-style: none;
+            color: #e0e0e0;
+        }
+
+        .features li {
+            padding: 5px 0;
+            padding-left: 20px;
+        }
+
+        .features li::before {
+            content: '▸ ';
+            color: #00ff00;
+            font-weight: bold;
+        }
+
+        .play-button {
+            display: block;
+            width: 100%;
+            max-width: 400px;
+            margin: 30px auto;
+            padding: 20px;
+            background: #00ff00;
+            color: #1a1a1a;
+            text-decoration: none;
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 5px 15px rgba(0, 255, 0, 0.3);
+        }
+
+        .play-button:hover {
+            background: #00ff88;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0, 255, 0, 0.5);
+        }
+
+        .links {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .links a {
+            color: #00ff00;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+
+        .links a:hover {
+            color: #00ff88;
+            text-decoration: underline;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #00cc00;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ZORK I</h1>
+        <p class="subtitle">The Great Underground Empire - Modern Web Edition</p>
+
+        <div class="description">
+            <p>
+                Experience the classic 1983 text adventure game reimagined for the modern web!
+                This proof-of-concept features a graphical user interface, visual compass navigation,
+                and support for scene imagery while preserving the authentic text adventure gameplay.
+            </p>
+        </div>
+
+        <div class="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Retro/modern hybrid interface with classic terminal aesthetics</li>
+                <li>Interactive compass rose for easy navigation</li>
+                <li>Scene display area ready for custom artwork</li>
+                <li>Full text parser supporting natural language commands</li>
+                <li>Real-time inventory management</li>
+                <li>Authentic game content extracted from original 1983 ZIL source code</li>
+                <li>Playable demo with 9 interconnected rooms</li>
+            </ul>
+        </div>
+
+        <a href="docs/index.html" class="play-button">▶ PLAY NOW</a>
+
+        <div class="links">
+            <a href="docs/README.md">Documentation</a>
+            <a href="docs/INSTRUCTIONS.md">How to Play</a>
+            <a href="MODERNIZATION.md">Technical Details</a>
+            <a href="https://github.com/jacobe603/zork1">GitHub Repository</a>
+        </div>
+
+        <div class="footer">
+            <p>Original Game © 1983 Infocom, Inc.</p>
+            <p>Web Edition - Proof of Concept</p>
+            <p>Ported from original ZIL source code</p>
+        </div>
+    </div>
+</body>
+</html>

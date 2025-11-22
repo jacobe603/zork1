@@ -26,6 +26,24 @@ In general, Infocom games were created by taking previous Infocom source code, c
 
 There are also multiple versions of the "Z-Machine" and code did change notably between the first years of Infocom and a decade later. Addition of graphics, sound and memory expansion are all slowly implemented over time.
 
+__Web Edition - Play in Your Browser!__
+
+This repository now includes a modern web-based adaptation of Zork I that you can play directly in your browser!
+
+🎮 **[Play the Web Edition](https://jacobe603.github.io/zork1/)** (GitHub Pages)
+
+The web edition features:
+* Graphical user interface with retro/modern hybrid design
+* Visual compass navigation
+* Scene display area (ready for custom artwork)
+* Full text parser ported from original ZIL source
+* Real-time inventory management
+* Authentic game content from the 1983 source code
+
+See the [`/docs`](docs/) folder for the web edition files, and [`MODERNIZATION.md`](MODERNIZATION.md) for technical details about the port from ZIL to JavaScript.
+
+To run locally: Simply open [`docs/index.html`](docs/index.html) in your browser, or see [`GITHUB_PAGES_SETUP.md`](GITHUB_PAGES_SETUP.md) for hosting instructions.
+
 __What is the Purpose of this Repository__
 
 This collection is meant for education, discussion, and historical work, allowing researchers and students to study how code was made for these interactive fiction games and how the system dealt with input and processing.

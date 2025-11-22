@@ -193,6 +193,17 @@ class ZorkGame {
             }
         });
 
+        // Add event listeners to compass buttons
+        document.querySelectorAll('.compass-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const direction = e.target.getAttribute('data-dir');
+                if (direction && !e.target.disabled) {
+                    this.go(direction);
+                    this.updateUI();
+                }
+            });
+        });
+
         // Update compass buttons
         this.updateCompass();
     }

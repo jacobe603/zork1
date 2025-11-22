@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZORK I - Web Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ZORK I: The Great Underground Empire</h1>
+            <p class="subtitle">A Modern Web Adaptation</p>
+        </header>
+
+        <div class="game-area">
+            <!-- Left panel: Scene image -->
+            <div class="scene-panel">
+                <div class="scene-image" id="sceneImage">
+                    <div class="placeholder-scene">
+                        <span id="sceneTitle">West of House</span>
+                    </div>
+                </div>
+
+                <!-- Room info -->
+                <div class="room-info">
+                    <h2 id="roomName">West of House</h2>
+                    <div class="compass">
+                        <button class="compass-btn north" data-dir="north" title="North">N</button>
+                        <button class="compass-btn south" data-dir="south" title="South">S</button>
+                        <button class="compass-btn east" data-dir="east" title="East">E</button>
+                        <button class="compass-btn west" data-dir="west" title="West">W</button>
+                        <button class="compass-btn ne" data-dir="ne" title="Northeast">NE</button>
+                        <button class="compass-btn nw" data-dir="nw" title="Northwest">NW</button>
+                        <button class="compass-btn se" data-dir="se" title="Southeast">SE</button>
+                        <button class="compass-btn sw" data-dir="sw" title="Southwest">SW</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right panel: Text output and input -->
+            <div class="text-panel">
+                <div class="output-area" id="output">
+                    <div class="game-text">
+                        <p class="intro">ZORK I: The Great Underground Empire</p>
+                        <p class="intro">Copyright (c) 1983 Infocom, Inc. All rights reserved.</p>
+                        <p class="intro">ZORK is a registered trademark of Infocom, Inc.</p>
+                        <p class="intro">Web Edition - Proof of Concept</p>
+                        <p>&nbsp;</p>
+                    </div>
+                </div>
+
+                <div class="input-area">
+                    <span class="prompt">&gt;</span>
+                    <input type="text" id="commandInput" autocomplete="off" autofocus>
+                </div>
+
+                <!-- Inventory panel -->
+                <div class="inventory-panel">
+                    <h3>Inventory</h3>
+                    <ul id="inventoryList">
+                        <li class="empty">You are empty-handed.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick command buttons -->
+        <div class="quick-commands">
+            <button onclick="game.processCommand('look')">Look</button>
+            <button onclick="game.processCommand('inventory')">Inventory</button>
+            <button onclick="game.processCommand('help')">Help</button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>

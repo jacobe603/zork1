@@ -315,10 +315,12 @@
                     return;
                 }
 
-                // Find the status bar (window3)
-                const statusBar = iframeDoc.getElementById('window3');
+                // Find the status bar - look for the GridLine element inside window3
+                const statusBar = iframeDoc.querySelector('#window3 .GridLine') ||
+                                 iframeDoc.querySelector('#win3_ln0');
+
                 if (!statusBar) {
-                    console.log('Status bar (window3) not found in iframe');
+                    console.log('Status bar GridLine not found in iframe');
                     return;
                 }
 
@@ -347,6 +349,18 @@
                     currentMoves = moves;
                 } else {
                     console.log('Status text did not match expected pattern');
+                    console.log('Trying alternative parsing...');
+
+                    // Try simpler pattern - just look for text ending with Score/Moves
+                    const simpleMatch = statusText.match(/(.+?)\s+Score:\s*(\d+)\s+Moves:\s*(\d+)/);
+                    if (simpleMatch) {
+                        const roomName = simpleMatch[1].trim();
+                        currentRoomName = roomName;
+                        updateSceneForRoom(roomName);
+                        currentScore = parseInt(simpleMatch[2]);
+                        currentMoves = parseInt(simpleMatch[3]);
+                        console.log('Parsed with alternative:', { roomName, score: currentScore, moves: currentMoves });
+                    }
                 }
             } catch (error) {
                 console.log('Error accessing iframe:', error.message);

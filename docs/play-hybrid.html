@@ -243,25 +243,10 @@
     </div>
 
     <script>
-        // Track current room
-        let currentRoom = 'west-of-house';
-
-        // Room graph for navigation
-        const roomGraph = {
-            'west-of-house': { north: 'north-of-house', south: 'south-of-house', east: 'behind-house', west: 'forest' },
-            'north-of-house': { south: 'west-of-house', north: 'forest-path', east: 'behind-house', west: 'west-of-house' },
-            'south-of-house': { north: 'west-of-house', east: 'behind-house', west: 'west-of-house', south: 'forest' },
-            'behind-house': { north: 'north-of-house', south: 'south-of-house', west: 'west-of-house', east: 'clearing', in: 'kitchen' },
-            'kitchen': { west: 'living-room', out: 'behind-house', down: 'cellar' },
-            'living-room': { east: 'kitchen', down: 'cellar' },
-            'cellar': { up: 'living-room', north: 'maze', south: 'maze', east: 'maze', west: 'maze' },
-            'forest': { east: 'west-of-house', north: 'clearing', south: 'forest', west: 'forest' },
-            'clearing': { west: 'behind-house', north: 'forest', south: 'grating', down: 'grating' },
-            'forest-path': { south: 'north-of-house', north: 'forest', up: 'tree' },
-            'tree': { down: 'forest-path' },
-            'grating': { up: 'clearing', south: 'cave' },
-            'maze': { north: 'maze', south: 'maze', east: 'maze', west: 'maze' }
-        };
+        // Track current room and game stats
+        let currentRoomName = 'West of House';
+        let currentScore = 0;
+        let currentMoves = 0;
 
         // Send commands to the game iframe
         function sendDirection(direction) {
@@ -304,8 +289,8 @@
                         form.dispatchEvent(new Event('submit', { bubbles: true, cancelable: true }));
                     }
 
-                    // Update scene based on predicted room
-                    predictAndUpdateRoom(direction);
+                    // Check for updates after a short delay
+                    setTimeout(() => checkGameState(), 500);
                 } else {
                     alert('Please click in the game window first, then try the compass buttons.');
                 }
@@ -315,78 +300,122 @@
             }
         }
 
-        // Predict next room based on direction
-        function predictAndUpdateRoom(direction) {
-            const dir = direction.toLowerCase();
+        // Check the game state by reading the status bar
+        function checkGameState() {
+            try {
+                const iframe = document.getElementById('gameIframe');
+                const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
 
-            // If it's a direction command, try to predict the room
-            const directionMap = {
-                'north': 'north', 'n': 'north',
-                'south': 'south', 's': 'south',
-                'east': 'east', 'e': 'east',
-                'west': 'west', 'w': 'west',
-                'northeast': 'northeast', 'ne': 'northeast',
-                'northwest': 'northwest', 'nw': 'northwest',
-                'southeast': 'southeast', 'se': 'southeast',
-                'southwest': 'southwest', 'sw': 'southwest',
-                'up': 'up', 'u': 'up',
-                'down': 'down', 'd': 'down',
-                'in': 'in',
-                'out': 'out'
-            };
+                // Find the status bar (window3)
+                const statusBar = iframeDoc.getElementById('window3');
+                if (statusBar) {
+                    const statusText = statusBar.textContent || statusBar.innerText;
 
-            const normalizedDir = directionMap[dir];
+                    // Parse the status: "RoomName                Score: X  Moves: Y"
+                    // Extract room name (everything before "Score:")
+                    const match = statusText.match(/^\s*([^S]+?)\s+Score:\s*(\d+)\s+Moves:\s*(\d+)/);
 
-            if (normalizedDir && roomGraph[currentRoom]) {
-                const nextRoom = roomGraph[currentRoom][normalizedDir];
-                if (nextRoom) {
-                    currentRoom = nextRoom;
+                    if (match) {
+                        const roomName = match[1].trim();
+                        const score = parseInt(match[2]);
+                        const moves = parseInt(match[3]);
+
+                        // Update if changed
+                        if (roomName !== currentRoomName) {
+                            currentRoomName = roomName;
+                            updateSceneForRoom(roomName);
+                        }
+
+                        currentScore = score;
+                        currentMoves = moves;
+                    }
                 }
+            } catch (error) {
+                // Can't access iframe - silently ignore
             }
-
-            // Update scene display
-            updateSceneForCurrentRoom();
         }
 
-        // Room data for scene display
+        // Start monitoring game state
+        setInterval(() => {
+            checkGameState();
+        }, 1000); // Check every second
+
+        // Room data for scene display (using actual game room names)
         const roomData = {
-            'west-of-house': { emoji: '🏠', name: 'West of House', color: '#90EE90' },
-            'north-of-house': { emoji: '🏚️', name: 'North of House', color: '#87CEEB' },
-            'south-of-house': { emoji: '🏘️', name: 'South of House', color: '#F0E68C' },
-            'behind-house': { emoji: '🏡', name: 'Behind House', color: '#98FB98' },
-            'kitchen': { emoji: '🍳', name: 'Kitchen', color: '#FFE4C4' },
-            'living-room': { emoji: '🛋️', name: 'Living Room', color: '#DEB887' },
-            'cellar': { emoji: '🕯️', name: 'Cellar', color: '#696969' },
-            'forest': { emoji: '🌲', name: 'Forest', color: '#228B22' },
-            'forest-path': { emoji: '🛤️', name: 'Forest Path', color: '#6B8E23' },
-            'clearing': { emoji: '☀️', name: 'Clearing', color: '#FFFF99' },
-            'tree': { emoji: '🌳', name: 'Up a Tree', color: '#32CD32' },
-            'grating': { emoji: '⚙️', name: 'Grating Room', color: '#696969' },
-            'maze': { emoji: '🌀', name: 'Maze', color: '#2F4F4F' },
-            'cave': { emoji: '🗿', name: 'Cave', color: '#8B7355' }
+            'West of House': { emoji: '🏠', color: '#90EE90' },
+            'North of House': { emoji: '🏚️', color: '#87CEEB' },
+            'South of House': { emoji: '🏘️', color: '#F0E68C' },
+            'Behind House': { emoji: '🏡', color: '#98FB98' },
+            'Kitchen': { emoji: '🍳', color: '#FFE4C4' },
+            'Living Room': { emoji: '🛋️', color: '#DEB887' },
+            'Attic': { emoji: '📦', color: '#D2B48C' },
+            'Cellar': { emoji: '🕯️', color: '#696969' },
+            'Forest': { emoji: '🌲', color: '#228B22' },
+            'Forest Path': { emoji: '🛤️', color: '#6B8E23' },
+            'Clearing': { emoji: '☀️', color: '#FFFF99' },
+            'Up a Tree': { emoji: '🌳', color: '#32CD32' },
+            'Grating Room': { emoji: '⚙️', color: '#696969' },
+            'Grating Clearing': { emoji: '🌿', color: '#9ACD32' },
+            'Cave': { emoji: '🗿', color: '#8B7355' },
+            'Troll Room': { emoji: '👹', color: '#8B0000' },
+            'Treasure Room': { emoji: '💰', color: '#FFD700' },
+            'Maze': { emoji: '🌀', color: '#2F4F4F' },
+            'Dam': { emoji: '🌊', color: '#1E90FF' },
+            'Dam Lobby': { emoji: '🏢', color: '#B0C4DE' },
+            'Reservoir': { emoji: '💦', color: '#4682B4' },
+            'Reservoir South': { emoji: '🌊', color: '#5F9EA0' },
+            'Reservoir North': { emoji: '💧', color: '#4682B4' },
+            'Frigid River': { emoji: '🧊', color: '#00CED1' },
+            'Stream': { emoji: '💦', color: '#87CEEB' },
+            'Stream View': { emoji: '👁️', color: '#ADD8E6' },
+            'Mirror Room': { emoji: '🪞', color: '#E0E0E0' },
+            'Loud Room': { emoji: '📢', color: '#FF6347' },
+            'Round Room': { emoji: '⭕', color: '#FFD700' },
+            'Temple': { emoji: '⛩️', color: '#DAA520' },
+            'Altar': { emoji: '✝️', color: '#D3D3D3' },
+            'Egyptian Room': { emoji: '🏺', color: '#DEB887' },
+            'Torch Room': { emoji: '🔥', color: '#FF4500' },
+            'Dome Room': { emoji: '🛕', color: '#FFD700' },
+            'Engravings Cave': { emoji: '🗿', color: '#8B7355' },
+            'Gallery': { emoji: '🖼️', color: '#F5DEB3' },
+            'Studio': { emoji: '🎨', color: '#FFB6C1' },
+            'Coal Mine': { emoji: '⛏️', color: '#404040' },
+            'Machine Room': { emoji: '⚙️', color: '#778899' },
+            'Bat Room': { emoji: '🦇', color: '#2F2F2F' },
         };
 
-        function updateSceneForCurrentRoom() {
-            const room = roomData[currentRoom];
-            if (room) {
-                const emojiEl = document.getElementById('sceneEmoji');
-                const nameEl = document.getElementById('sceneName');
-                const infoEl = document.getElementById('roomInfo');
+        function updateSceneForRoom(roomName) {
+            const room = roomData[roomName];
 
-                emojiEl.textContent = room.emoji;
-                emojiEl.style.filter = `drop-shadow(0 0 20px ${room.color})`;
+            // Use room data if available, otherwise show generic
+            const emoji = room ? room.emoji : '❓';
+            const color = room ? room.color : '#00ff00';
 
-                nameEl.textContent = room.name;
-                nameEl.style.color = room.color;
-                nameEl.style.textShadow = `0 0 10px ${room.color}`;
+            const emojiEl = document.getElementById('sceneEmoji');
+            const nameEl = document.getElementById('sceneName');
+            const infoEl = document.getElementById('roomInfo');
 
-                infoEl.textContent = room.name;
+            if (emojiEl) {
+                emojiEl.textContent = emoji;
+                emojiEl.style.filter = `drop-shadow(0 0 20px ${color})`;
+            }
+
+            if (nameEl) {
+                nameEl.textContent = roomName;
+                nameEl.style.color = color;
+                nameEl.style.textShadow = `0 0 10px ${color}`;
+            }
+
+            if (infoEl) {
+                infoEl.textContent = roomName;
             }
         }
 
         // Initialize scene on page load
         window.addEventListener('DOMContentLoaded', () => {
-            updateSceneForCurrentRoom();
+            updateSceneForRoom(currentRoomName);
+            // Start checking game state after a delay
+            setTimeout(() => checkGameState(), 2000);
         });
     </script>
 </body>

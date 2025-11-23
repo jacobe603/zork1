@@ -58,7 +58,8 @@ This directory contains **three versions** of the Zork I web experience:
 open docs/play.html
 
 # Option 2: Open the standalone Parchment version
-open COMPILED/zork1.z3.html
+open docs/zork1.z3.html
+# (Also available at: COMPILED/zork1.z3.html)
 
 # Option 3: Use a local web server (for GitHub Pages preview)
 cd docs
@@ -79,10 +80,11 @@ docs/
 ├── index.html                 # Demo version (simplified)
 ├── game.js                    # Demo game logic
 ├── style.css                  # Shared styles
+├── zork1.z3.html             # Z-machine game (copied for GitHub Pages)
 └── INTEGRATION_README.md      # This file
 
 COMPILED/
-└── zork1.z3.html             # Standalone Parchment game (required)
+└── zork1.z3.html             # Z-machine game (original location)
 ```
 
 ---
@@ -149,7 +151,7 @@ Each room displays:
           │
 ┌─────────▼───────────────────────────┐
 │  Hidden iframe                      │
-│  - Loads: COMPILED/zork1.z3.html    │
+│  - Loads: docs/zork1.z3.html        │
 │  - Runs: Parchment Z-machine        │
 │  - Executes: Authentic Zork I game  │
 └─────────────────────────────────────┘
@@ -299,7 +301,7 @@ Edit the quick commands section in `play.html`:
 
 ### Problem: Blank screen or "Loading..." forever
 **Solution:**
-- Ensure `COMPILED/zork1.z3.html` exists
+- Ensure `docs/zork1.z3.html` exists (should be 3.6MB)
 - Try opening with a local web server
 - Check browser console for errors
 
@@ -308,7 +310,7 @@ Edit the quick commands section in `play.html`:
 - Check that game has loaded (wait 2-3 seconds)
 - Try clicking in the text input area
 - Check browser console for errors
-- Try the standalone version: `COMPILED/zork1.z3.html`
+- Try the standalone version: `docs/zork1.z3.html`
 
 ### Problem: Room detection not working
 **Solution:**
@@ -337,7 +339,7 @@ To host this on GitHub Pages:
 2. **Access URLs:**
    - Main game: `https://yourusername.github.io/zork1/play.html`
    - Demo: `https://yourusername.github.io/zork1/index.html`
-   - Standalone: `https://yourusername.github.io/zork1/../COMPILED/zork1.z3.html`
+   - Standalone: `https://yourusername.github.io/zork1/zork1.z3.html`
 
 3. **Note:** GitHub Pages serves via HTTPS, so iframe access should work perfectly.
 

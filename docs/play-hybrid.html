@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZORK I - Hybrid Edition</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hybrid-container {
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            gap: 20px;
+            max-width: 1400px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .sidebar-panel {
+            background: #0a0a0a;
+            border: 2px solid #00ff00;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .game-iframe-container {
+            background: #0a0a0a;
+            border: 2px solid #00ff00;
+            border-radius: 8px;
+            overflow: hidden;
+            min-height: 600px;
+        }
+
+        #gameIframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+            background: black;
+        }
+
+        .scene-display {
+            background: #1a1a1a;
+            border: 1px solid #00ff00;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .scene-emoji {
+            font-size: 80px;
+            display: block;
+            margin: 10px 0;
+            opacity: 0.6;
+        }
+
+        .scene-name {
+            color: #00ff00;
+            font-size: 18px;
+            font-weight: bold;
+            text-shadow: 0 0 10px #00ff00;
+        }
+
+        .compass-container {
+            margin: 20px 0;
+        }
+
+        .compass-container h3 {
+            color: #00ff00;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .compass-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+
+        .compass-btn {
+            background: #1a4a1a;
+            border: 2px solid #00ff00;
+            color: #00ff00;
+            padding: 12px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+
+        .compass-btn:hover {
+            background: #00ff00;
+            color: black;
+            box-shadow: 0 0 15px #00ff00;
+        }
+
+        .compass-btn.center {
+            grid-column: 2;
+        }
+
+        .vertical-buttons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .info-box {
+            background: #1a3a1a;
+            border: 1px solid #00ff00;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+
+        .info-box h4 {
+            color: #00ff00;
+            margin: 0 0 10px 0;
+        }
+
+        .info-box ul {
+            margin: 0;
+            padding-left: 20px;
+            font-size: 13px;
+            color: #00cc00;
+        }
+
+        .info-box li {
+            margin: 5px 0;
+        }
+
+        .success-banner {
+            background: linear-gradient(135deg, #1a4a1a 0%, #0d3a0d 100%);
+            border: 2px solid #00ff00;
+            padding: 15px;
+            margin: 20px auto;
+            max-width: 1360px;
+            border-radius: 8px;
+            text-align: center;
+            color: #00ff00;
+            font-weight: bold;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+        }
+
+        @media (max-width: 1000px) {
+            .hybrid-container {
+                grid-template-columns: 1fr;
+            }
+
+            .sidebar-panel {
+                order: 2;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ZORK I: The Great Underground Empire</h1>
+            <p class="subtitle">Hybrid Edition - Full Game + Custom GUI</p>
+        </header>
+
+        <div class="success-banner">
+            ✓ Complete Authentic Z-Machine Game + Custom Navigation Controls
+        </div>
+
+        <div class="hybrid-container">
+            <!-- Sidebar with custom controls -->
+            <div class="sidebar-panel">
+                <!-- Scene Display -->
+                <div class="scene-display">
+                    <span class="scene-emoji" id="sceneEmoji">🏠</span>
+                    <div class="scene-name" id="sceneName">West of House</div>
+                </div>
+
+                <!-- Compass Navigation -->
+                <div class="compass-container">
+                    <h3>Quick Navigation</h3>
+                    <div class="compass-grid">
+                        <button class="compass-btn" onclick="sendDirection('northwest')">NW</button>
+                        <button class="compass-btn center" onclick="sendDirection('north')">N</button>
+                        <button class="compass-btn" onclick="sendDirection('northeast')">NE</button>
+
+                        <button class="compass-btn" onclick="sendDirection('west')">W</button>
+                        <button class="compass-btn center" onclick="sendDirection('look')" style="font-size: 20px;">👁️</button>
+                        <button class="compass-btn" onclick="sendDirection('east')">E</button>
+
+                        <button class="compass-btn" onclick="sendDirection('southwest')">SW</button>
+                        <button class="compass-btn center" onclick="sendDirection('south')">S</button>
+                        <button class="compass-btn" onclick="sendDirection('southeast')">SE</button>
+                    </div>
+
+                    <div class="vertical-buttons">
+                        <button class="compass-btn" onclick="sendDirection('up')">↑ UP</button>
+                        <button class="compass-btn" onclick="sendDirection('down')">↓ DOWN</button>
+                    </div>
+                </div>
+
+                <!-- Quick Commands -->
+                <div class="info-box">
+                    <h4>Quick Commands</h4>
+                    <button class="compass-btn" style="width: 100%; margin: 5px 0;" onclick="sendDirection('inventory')">🎒 Inventory</button>
+                    <button class="compass-btn" style="width: 100%; margin: 5px 0;" onclick="sendDirection('score')">📊 Score</button>
+                    <button class="compass-btn" style="width: 100%; margin: 5px 0;" onclick="sendDirection('save')">💾 Save</button>
+                    <button class="compass-btn" style="width: 100%; margin: 5px 0;" onclick="sendDirection('restore')">📂 Restore</button>
+                </div>
+
+                <!-- Help Info -->
+                <div class="info-box">
+                    <h4>How to Play</h4>
+                    <ul>
+                        <li>Click compass buttons for quick navigation</li>
+                        <li>Or type commands in the game window →</li>
+                        <li>Try: OPEN MAILBOX, TAKE LAMP</li>
+                        <li>Type HELP in game for full commands</li>
+                    </ul>
+                </div>
+
+                <!-- Room Tracker -->
+                <div class="info-box">
+                    <h4>Current Location</h4>
+                    <div id="roomInfo" style="color: #00ff00; font-weight: bold;">
+                        West of House
+                    </div>
+                </div>
+            </div>
+
+            <!-- Game iframe -->
+            <div class="game-iframe-container">
+                <iframe id="gameIframe" src="zork1.z3.html" title="Zork I Game"></iframe>
+            </div>
+        </div>
+
+        <div class="info-box" style="max-width: 1360px; margin: 20px auto;">
+            <h4>About This Hybrid Edition</h4>
+            <p style="color: #00cc00; margin: 5px 0;">
+                This version combines the complete, authentic Zork I game (all 110+ rooms) with custom navigation controls.
+                The game runs in the right panel - type commands there or use the compass buttons on the left for quick navigation.
+                <strong>Both methods work together!</strong>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Send commands to the game iframe
+        function sendDirection(direction) {
+            const iframe = document.getElementById('gameIframe');
+            if (!iframe || !iframe.contentWindow) {
+                alert('Game not loaded yet. Please wait a moment and try again.');
+                return;
+            }
+
+            try {
+                // Try to find the input in the iframe
+                const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+                const input = iframeDoc.querySelector('input[type="text"], textarea');
+
+                if (input) {
+                    input.value = direction;
+                    input.focus();
+
+                    // Trigger enter key
+                    const enterEvent = new KeyboardEvent('keydown', {
+                        key: 'Enter',
+                        code: 'Enter',
+                        keyCode: 13,
+                        which: 13,
+                        bubbles: true,
+                        cancelable: true
+                    });
+                    input.dispatchEvent(enterEvent);
+
+                    // Update scene based on direction
+                    updateScene(direction);
+                } else {
+                    alert('Please click in the game window first, then try the compass buttons.');
+                }
+            } catch (error) {
+                // If we can't access iframe due to security, show helpful message
+                alert('Please type "' + direction + '" in the game window →');
+            }
+        }
+
+        // Update scene display based on common rooms
+        const roomScenes = {
+            'north': { emoji: '🏚️', name: 'North of House' },
+            'south': { emoji: '🏘️', name: 'South of House' },
+            'east': { emoji: '🏡', name: 'Behind House' },
+            'west': { emoji: '🏠', name: 'West of House' },
+            'up': { emoji: '🌳', name: 'Up a Tree / Attic' },
+            'down': { emoji: '🕯️', name: 'Cellar / Below' },
+            'northeast': { emoji: '🌲', name: 'Forest Path' },
+            'northwest': { emoji: '🌲', name: 'Forest' },
+        };
+
+        function updateScene(direction) {
+            const scene = roomScenes[direction.toLowerCase()];
+            if (scene) {
+                document.getElementById('sceneEmoji').textContent = scene.emoji;
+                document.getElementById('sceneName').textContent = scene.name;
+                document.getElementById('roomInfo').textContent = scene.name;
+            }
+        }
+
+        // Try to monitor iframe for room changes (may not work due to security)
+        setInterval(() => {
+            try {
+                const iframe = document.getElementById('gameIframe');
+                const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+                const bodyText = iframeDoc.body.textContent || '';
+
+                // Try to detect room names
+                if (bodyText.includes('West of House')) {
+                    updateSceneByName('West of House', '🏠');
+                } else if (bodyText.includes('North of House')) {
+                    updateSceneByName('North of House', '🏚️');
+                } else if (bodyText.includes('Kitchen')) {
+                    updateSceneByName('Kitchen', '🍳');
+                } else if (bodyText.includes('Living Room')) {
+                    updateSceneByName('Living Room', '🛋️');
+                }
+            } catch (error) {
+                // Security restriction - silently ignore
+            }
+        }, 2000);
+
+        function updateSceneByName(name, emoji) {
+            document.getElementById('sceneEmoji').textContent = emoji;
+            document.getElementById('sceneName').textContent = name;
+            document.getElementById('roomInfo').textContent = name;
+        }
+    </script>
+</body>
+</html>

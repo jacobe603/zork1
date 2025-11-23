@@ -1,0 +1,1116 @@
+{
+  "meta": {
+    "total_rooms": 14,
+    "categories": [
+      "house",
+      "dungeon",
+      "forest",
+      "other",
+      "maze",
+      "water",
+      "temple"
+    ]
+  },
+  "prompts": [
+    {
+      "id": "WEST-OF-HOUSE",
+      "name": "West of House",
+      "category": "house",
+      "description": "A mysterious location known as West of House",
+      "prompt_base": "A mysterious location known as West of House, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as West of House, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as West of House, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "west-of-house.jpg"
+    },
+    {
+      "id": "STONE-BARROW",
+      "name": "Stone Barrow",
+      "category": "dungeon",
+      "description": "You are standing in front of a massive barrow of stone. In the east face is a huge stone door which is open. You cannot see into the dark of the tomb.",
+      "prompt_base": "You are standing in front of a massive barrow of stone. In the east face is a huge stone door which is open. You cannot see into the dark of the tomb., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You are standing in front of a massive barrow of stone. In the east face is a huge stone door which is open. You cannot see into the dark of the tomb., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You are standing in front of a massive barrow of stone. In the east face is a huge stone door which is open. You cannot see into the dark of the tomb., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "stone-barrow.jpg"
+    },
+    {
+      "id": "NORTH-OF-HOUSE",
+      "name": "North of House",
+      "category": "house",
+      "description": "You are facing the north side of a white house. There is no door here, and all the windows are boarded up. To the north a narrow path winds through the trees.",
+      "prompt_base": "You are facing the north side of a white house. There is no door here, and all the windows are boarded up. To the north a narrow path winds through the trees., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You are facing the north side of a white house. There is no door here, and all the windows are boarded up. To the north a narrow path winds through the trees., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You are facing the north side of a white house. There is no door here, and all the windows are boarded up. To the north a narrow path winds through the trees., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "north-of-house.jpg"
+    },
+    {
+      "id": "SOUTH-OF-HOUSE",
+      "name": "South of House",
+      "category": "house",
+      "description": "You are facing the south side of a white house. There is no door here, and all the windows are boarded.",
+      "prompt_base": "You are facing the south side of a white house. There is no door here, and all the windows are boarded., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You are facing the south side of a white house. There is no door here, and all the windows are boarded., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You are facing the south side of a white house. There is no door here, and all the windows are boarded., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "south-of-house.jpg"
+    },
+    {
+      "id": "EAST-OF-HOUSE",
+      "name": "Behind House",
+      "category": "house",
+      "description": "A mysterious location known as Behind House",
+      "prompt_base": "A mysterious location known as Behind House, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as Behind House, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as Behind House, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "behind-house.jpg"
+    },
+    {
+      "id": "FOREST-1",
+      "name": "Forest",
+      "category": "forest",
+      "description": "This is a forest, with trees in all directions. To the east, there appears to be sunlight.",
+      "prompt_base": "This is a forest, with trees in all directions. To the east, there appears to be sunlight., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a forest, with trees in all directions. To the east, there appears to be sunlight., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a forest, with trees in all directions. To the east, there appears to be sunlight., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "forest.jpg"
+    },
+    {
+      "id": "FOREST-2",
+      "name": "Forest",
+      "category": "forest",
+      "description": "This is a dimly lit forest, with large trees all around.",
+      "prompt_base": "This is a dimly lit forest, with large trees all around., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a dimly lit forest, with large trees all around., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a dimly lit forest, with large trees all around., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "forest.jpg"
+    },
+    {
+      "id": "MOUNTAINS",
+      "name": "Forest",
+      "category": "forest",
+      "description": "The forest thins out, revealing impassable mountains.",
+      "prompt_base": "The forest thins out, revealing impassable mountains., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "The forest thins out, revealing impassable mountains., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "The forest thins out, revealing impassable mountains., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "forest.jpg"
+    },
+    {
+      "id": "FOREST-3",
+      "name": "Forest",
+      "category": "forest",
+      "description": "This is a dimly lit forest, with large trees all around.",
+      "prompt_base": "This is a dimly lit forest, with large trees all around., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a dimly lit forest, with large trees all around., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a dimly lit forest, with large trees all around., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "forest.jpg"
+    },
+    {
+      "id": "PATH",
+      "name": "Forest Path",
+      "category": "forest",
+      "description": "This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.",
+      "prompt_base": "This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "forest-path.jpg"
+    },
+    {
+      "id": "UP-A-TREE",
+      "name": "Up a Tree",
+      "category": "forest",
+      "description": "A mysterious location known as Up a Tree",
+      "prompt_base": "A mysterious location known as Up a Tree, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as Up a Tree, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as Up a Tree, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "up-a-tree.jpg"
+    },
+    {
+      "id": "GRATING-CLEARING",
+      "name": "Clearing",
+      "category": "forest",
+      "description": "A mysterious location known as Clearing",
+      "prompt_base": "A mysterious location known as Clearing, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as Clearing, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as Clearing, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "clearing.jpg"
+    },
+    {
+      "id": "CLEARING",
+      "name": "Clearing",
+      "category": "forest",
+      "description": "You are in a small clearing in a well marked forest path that extends to the east and west.",
+      "prompt_base": "You are in a small clearing in a well marked forest path that extends to the east and west., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You are in a small clearing in a well marked forest path that extends to the east and west., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You are in a small clearing in a well marked forest path that extends to the east and west., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "clearing.jpg"
+    },
+    {
+      "id": "KITCHEN",
+      "name": "Kitchen",
+      "category": "house",
+      "description": "A mysterious location known as Kitchen",
+      "prompt_base": "A mysterious location known as Kitchen, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as Kitchen, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as Kitchen, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "kitchen.jpg"
+    },
+    {
+      "id": "ATTIC",
+      "name": "Attic",
+      "category": "house",
+      "description": "This is the attic. The only exit is a stairway leading down.",
+      "prompt_base": "This is the attic. The only exit is a stairway leading down., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is the attic. The only exit is a stairway leading down., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is the attic. The only exit is a stairway leading down., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "attic.jpg"
+    },
+    {
+      "id": "LIVING-ROOM",
+      "name": "Living Room",
+      "category": "house",
+      "description": "A mysterious location known as Living Room",
+      "prompt_base": "A mysterious location known as Living Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as Living Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as Living Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "living-room.jpg"
+    },
+    {
+      "id": "CELLAR",
+      "name": "Cellar",
+      "category": "other",
+      "description": "A mysterious location known as Cellar",
+      "prompt_base": "A mysterious location known as Cellar, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as Cellar, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as Cellar, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "cellar.jpg"
+    },
+    {
+      "id": "TROLL-ROOM",
+      "name": "The Troll Room",
+      "category": "other",
+      "description": "This is a small room with passages to the east and south and a forbidding hole leading west. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.",
+      "prompt_base": "This is a small room with passages to the east and south and a forbidding hole leading west. Bloodstains and deep scratches (perhaps made by an axe) mar the walls., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a small room with passages to the east and south and a forbidding hole leading west. Bloodstains and deep scratches (perhaps made by an axe) mar the walls., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a small room with passages to the east and south and a forbidding hole leading west. Bloodstains and deep scratches (perhaps made by an axe) mar the walls., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "the-troll-room.jpg"
+    },
+    {
+      "id": "EAST-OF-CHASM",
+      "name": "East of Chasm",
+      "category": "other",
+      "description": "You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.",
+      "prompt_base": "You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "east-of-chasm.jpg"
+    },
+    {
+      "id": "GALLERY",
+      "name": "Gallery",
+      "category": "other",
+      "description": "This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the north or west exits.",
+      "prompt_base": "This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the north or west exits., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the north or west exits., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the north or west exits., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "gallery.jpg"
+    },
+    {
+      "id": "STUDIO",
+      "name": "Studio",
+      "category": "other",
+      "description": "This appears to have been an artist's studio. The walls and floors are splattered with paints of 69 different colors. Strangely enough, nothing of value is hanging here. At the south end of the room is an open door (also covered with paint). A dark and narrow chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down.",
+      "prompt_base": "This appears to have been an artist's studio. The walls and floors are splattered with paints of 69 different colors. Strangely enough, nothing of value is hanging here. At the south end of the room is an open door (also covered with paint). A dark and narrow chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This appears to have been an artist's studio. The walls and floors are splattered with paints of 69 different colors. Strangely enough, nothing of value is hanging here. At the south end of the room is an open door (also covered with paint). A dark and narrow chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This appears to have been an artist's studio. The walls and floors are splattered with paints of 69 different colors. Strangely enough, nothing of value is hanging here. At the south end of the room is an open door (also covered with paint). A dark and narrow chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "studio.jpg"
+    },
+    {
+      "id": "MAZE-1",
+      "name": "Maze",
+      "category": "maze",
+      "description": "This is part of a maze of twisty little passages, all alike.",
+      "prompt_base": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "maze.jpg"
+    },
+    {
+      "id": "MAZE-2",
+      "name": "Maze",
+      "category": "maze",
+      "description": "This is part of a maze of twisty little passages, all alike.",
+      "prompt_base": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "maze.jpg"
+    },
+    {
+      "id": "MAZE-3",
+      "name": "Maze",
+      "category": "maze",
+      "description": "This is part of a maze of twisty little passages, all alike.",
+      "prompt_base": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "maze.jpg"
+    },
+    {
+      "id": "MAZE-4",
+      "name": "Maze",
+      "category": "maze",
+      "description": "This is part of a maze of twisty little passages, all alike.",
+      "prompt_base": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "maze.jpg"
+    },
+    {
+      "id": "DEAD-END-1",
+      "name": "Dead End",
+      "category": "other",
+      "description": "You have come to a dead end in the maze.",
+      "prompt_base": "You have come to a dead end in the maze., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You have come to a dead end in the maze., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You have come to a dead end in the maze., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "dead-end.jpg"
+    },
+    {
+      "id": "MAZE-5",
+      "name": "Maze",
+      "category": "maze",
+      "description": "This is part of a maze of twisty little passages, all alike. A skeleton, probably the remains of a luckless adventurer, lies here.",
+      "prompt_base": "This is part of a maze of twisty little passages, all alike. A skeleton, probably the remains of a luckless adventurer, lies here., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is part of a maze of twisty little passages, all alike. A skeleton, probably the remains of a luckless adventurer, lies here., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is part of a maze of twisty little passages, all alike. A skeleton, probably the remains of a luckless adventurer, lies here., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "maze.jpg"
+    },
+    {
+      "id": "DEAD-END-2",
+      "name": "Dead End",
+      "category": "other",
+      "description": "You have come to a dead end in the maze.",
+      "prompt_base": "You have come to a dead end in the maze., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You have come to a dead end in the maze., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You have come to a dead end in the maze., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "dead-end.jpg"
+    },
+    {
+      "id": "MAZE-6",
+      "name": "Maze",
+      "category": "maze",
+      "description": "This is part of a maze of twisty little passages, all alike.",
+      "prompt_base": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "maze.jpg"
+    },
+    {
+      "id": "MAZE-7",
+      "name": "Maze",
+      "category": "maze",
+      "description": "This is part of a maze of twisty little passages, all alike.",
+      "prompt_base": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "maze.jpg"
+    },
+    {
+      "id": "MAZE-8",
+      "name": "Maze",
+      "category": "maze",
+      "description": "This is part of a maze of twisty little passages, all alike.",
+      "prompt_base": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "maze.jpg"
+    },
+    {
+      "id": "DEAD-END-3",
+      "name": "Dead End",
+      "category": "other",
+      "description": "You have come to a dead end in the maze.",
+      "prompt_base": "You have come to a dead end in the maze., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You have come to a dead end in the maze., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You have come to a dead end in the maze., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "dead-end.jpg"
+    },
+    {
+      "id": "MAZE-9",
+      "name": "Maze",
+      "category": "maze",
+      "description": "This is part of a maze of twisty little passages, all alike.",
+      "prompt_base": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "maze.jpg"
+    },
+    {
+      "id": "MAZE-10",
+      "name": "Maze",
+      "category": "maze",
+      "description": "This is part of a maze of twisty little passages, all alike.",
+      "prompt_base": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "maze.jpg"
+    },
+    {
+      "id": "MAZE-11",
+      "name": "Maze",
+      "category": "maze",
+      "description": "This is part of a maze of twisty little passages, all alike.",
+      "prompt_base": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "maze.jpg"
+    },
+    {
+      "id": "GRATING-ROOM",
+      "name": "Grating Room",
+      "category": "other",
+      "description": "A mysterious location known as Grating Room",
+      "prompt_base": "A mysterious location known as Grating Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as Grating Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as Grating Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "grating-room.jpg"
+    },
+    {
+      "id": "MAZE-12",
+      "name": "Maze",
+      "category": "maze",
+      "description": "This is part of a maze of twisty little passages, all alike.",
+      "prompt_base": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "maze.jpg"
+    },
+    {
+      "id": "DEAD-END-4",
+      "name": "Dead End",
+      "category": "other",
+      "description": "You have come to a dead end in the maze.",
+      "prompt_base": "You have come to a dead end in the maze., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You have come to a dead end in the maze., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You have come to a dead end in the maze., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "dead-end.jpg"
+    },
+    {
+      "id": "MAZE-13",
+      "name": "Maze",
+      "category": "maze",
+      "description": "This is part of a maze of twisty little passages, all alike.",
+      "prompt_base": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "maze.jpg"
+    },
+    {
+      "id": "MAZE-14",
+      "name": "Maze",
+      "category": "maze",
+      "description": "This is part of a maze of twisty little passages, all alike.",
+      "prompt_base": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "maze.jpg"
+    },
+    {
+      "id": "MAZE-15",
+      "name": "Maze",
+      "category": "maze",
+      "description": "This is part of a maze of twisty little passages, all alike.",
+      "prompt_base": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is part of a maze of twisty little passages, all alike., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "maze.jpg"
+    },
+    {
+      "id": "CYCLOPS-ROOM",
+      "name": "Cyclops Room",
+      "category": "other",
+      "description": "A mysterious location known as Cyclops Room",
+      "prompt_base": "A mysterious location known as Cyclops Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as Cyclops Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as Cyclops Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "cyclops-room.jpg"
+    },
+    {
+      "id": "STRANGE-PASSAGE",
+      "name": "Strange Passage",
+      "category": "maze",
+      "description": "This is a long passage. To the west is one entrance. On the east there is an old wooden door, with a large opening in it (about cyclops sized).",
+      "prompt_base": "This is a long passage. To the west is one entrance. On the east there is an old wooden door, with a large opening in it (about cyclops sized)., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a long passage. To the west is one entrance. On the east there is an old wooden door, with a large opening in it (about cyclops sized)., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a long passage. To the west is one entrance. On the east there is an old wooden door, with a large opening in it (about cyclops sized)., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "strange-passage.jpg"
+    },
+    {
+      "id": "TREASURE-ROOM",
+      "name": "Treasure Room",
+      "category": "other",
+      "description": "This is a large room, whose east wall is solid granite. A number of discarded bags, which crumble at your touch, are scattered about on the floor. There is an exit down a staircase.",
+      "prompt_base": "This is a large room, whose east wall is solid granite. A number of discarded bags, which crumble at your touch, are scattered about on the floor. There is an exit down a staircase., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a large room, whose east wall is solid granite. A number of discarded bags, which crumble at your touch, are scattered about on the floor. There is an exit down a staircase., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a large room, whose east wall is solid granite. A number of discarded bags, which crumble at your touch, are scattered about on the floor. There is an exit down a staircase., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "treasure-room.jpg"
+    },
+    {
+      "id": "RESERVOIR-SOUTH",
+      "name": "Reservoir South",
+      "category": "water",
+      "description": "A mysterious location known as Reservoir South",
+      "prompt_base": "A mysterious location known as Reservoir South, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as Reservoir South, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as Reservoir South, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "reservoir-south.jpg"
+    },
+    {
+      "id": "RESERVOIR",
+      "name": "Reservoir",
+      "category": "water",
+      "description": "A mysterious location known as Reservoir",
+      "prompt_base": "A mysterious location known as Reservoir, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as Reservoir, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as Reservoir, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "reservoir.jpg"
+    },
+    {
+      "id": "RESERVOIR-NORTH",
+      "name": "Reservoir North",
+      "category": "water",
+      "description": "A mysterious location known as Reservoir North",
+      "prompt_base": "A mysterious location known as Reservoir North, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as Reservoir North, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as Reservoir North, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "reservoir-north.jpg"
+    },
+    {
+      "id": "STREAM-VIEW",
+      "name": "Stream View",
+      "category": "water",
+      "description": "You are standing on a path beside a gently flowing stream. The path follows the stream, which flows from west to east.",
+      "prompt_base": "You are standing on a path beside a gently flowing stream. The path follows the stream, which flows from west to east., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You are standing on a path beside a gently flowing stream. The path follows the stream, which flows from west to east., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You are standing on a path beside a gently flowing stream. The path follows the stream, which flows from west to east., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "stream-view.jpg"
+    },
+    {
+      "id": "IN-STREAM",
+      "name": "Stream",
+      "category": "water",
+      "description": "You are on the gently flowing stream. The upstream route is too narrow to navigate, and the downstream route is invisible due to twisting walls. There is a narrow beach to land on.",
+      "prompt_base": "You are on the gently flowing stream. The upstream route is too narrow to navigate, and the downstream route is invisible due to twisting walls. There is a narrow beach to land on., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You are on the gently flowing stream. The upstream route is too narrow to navigate, and the downstream route is invisible due to twisting walls. There is a narrow beach to land on., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You are on the gently flowing stream. The upstream route is too narrow to navigate, and the downstream route is invisible due to twisting walls. There is a narrow beach to land on., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "stream.jpg"
+    },
+    {
+      "id": "MIRROR-ROOM-1",
+      "name": "Mirror Room",
+      "category": "other",
+      "description": "A mysterious location known as Mirror Room",
+      "prompt_base": "A mysterious location known as Mirror Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as Mirror Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as Mirror Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "mirror-room.jpg"
+    },
+    {
+      "id": "MIRROR-ROOM-2",
+      "name": "Mirror Room",
+      "category": "other",
+      "description": "A mysterious location known as Mirror Room",
+      "prompt_base": "A mysterious location known as Mirror Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as Mirror Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as Mirror Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "mirror-room.jpg"
+    },
+    {
+      "id": "SMALL-CAVE",
+      "name": "Cave",
+      "category": "dungeon",
+      "description": "This is a tiny cave with entrances west and north, and a staircase leading down.",
+      "prompt_base": "This is a tiny cave with entrances west and north, and a staircase leading down., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a tiny cave with entrances west and north, and a staircase leading down., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a tiny cave with entrances west and north, and a staircase leading down., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "cave.jpg"
+    },
+    {
+      "id": "TINY-CAVE",
+      "name": "Cave",
+      "category": "dungeon",
+      "description": "This is a tiny cave with entrances west and north, and a dark, forbidding staircase leading down.",
+      "prompt_base": "This is a tiny cave with entrances west and north, and a dark, forbidding staircase leading down., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a tiny cave with entrances west and north, and a dark, forbidding staircase leading down., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a tiny cave with entrances west and north, and a dark, forbidding staircase leading down., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "cave.jpg"
+    },
+    {
+      "id": "COLD-PASSAGE",
+      "name": "Cold Passage",
+      "category": "maze",
+      "description": "This is a cold and damp corridor where a long east-west passageway turns into a southward path.",
+      "prompt_base": "This is a cold and damp corridor where a long east-west passageway turns into a southward path., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a cold and damp corridor where a long east-west passageway turns into a southward path., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a cold and damp corridor where a long east-west passageway turns into a southward path., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "cold-passage.jpg"
+    },
+    {
+      "id": "NARROW-PASSAGE",
+      "name": "Narrow Passage",
+      "category": "maze",
+      "description": "This is a long and narrow corridor where a long north-south passageway briefly narrows even further.",
+      "prompt_base": "This is a long and narrow corridor where a long north-south passageway briefly narrows even further., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a long and narrow corridor where a long north-south passageway briefly narrows even further., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a long and narrow corridor where a long north-south passageway briefly narrows even further., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "narrow-passage.jpg"
+    },
+    {
+      "id": "WINDING-PASSAGE",
+      "name": "Winding Passage",
+      "category": "maze",
+      "description": "This is a winding passage. It seems that there are only exits on the east and north.",
+      "prompt_base": "This is a winding passage. It seems that there are only exits on the east and north., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a winding passage. It seems that there are only exits on the east and north., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a winding passage. It seems that there are only exits on the east and north., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "winding-passage.jpg"
+    },
+    {
+      "id": "TWISTING-PASSAGE",
+      "name": "Twisting Passage",
+      "category": "maze",
+      "description": "This is a winding passage. It seems that there are only exits on the east and north.",
+      "prompt_base": "This is a winding passage. It seems that there are only exits on the east and north., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a winding passage. It seems that there are only exits on the east and north., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a winding passage. It seems that there are only exits on the east and north., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "twisting-passage.jpg"
+    },
+    {
+      "id": "ATLANTIS-ROOM",
+      "name": "Atlantis Room",
+      "category": "other",
+      "description": "This is an ancient room, long under water. There is an exit to the south and a staircase leading up.",
+      "prompt_base": "This is an ancient room, long under water. There is an exit to the south and a staircase leading up., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is an ancient room, long under water. There is an exit to the south and a staircase leading up., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is an ancient room, long under water. There is an exit to the south and a staircase leading up., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "atlantis-room.jpg"
+    },
+    {
+      "id": "EW-PASSAGE",
+      "name": "East-West Passage",
+      "category": "maze",
+      "description": "This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.",
+      "prompt_base": "This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "east-west-passage.jpg"
+    },
+    {
+      "id": "ROUND-ROOM",
+      "name": "Round Room",
+      "category": "dungeon",
+      "description": "This is a circular stone room with passages in all directions. Several of them have unfortunately been blocked by cave-ins.",
+      "prompt_base": "This is a circular stone room with passages in all directions. Several of them have unfortunately been blocked by cave-ins., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a circular stone room with passages in all directions. Several of them have unfortunately been blocked by cave-ins., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a circular stone room with passages in all directions. Several of them have unfortunately been blocked by cave-ins., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "round-room.jpg"
+    },
+    {
+      "id": "DEEP-CANYON",
+      "name": "Deep Canyon",
+      "category": "other",
+      "description": "A mysterious location known as Deep Canyon",
+      "prompt_base": "A mysterious location known as Deep Canyon, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as Deep Canyon, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as Deep Canyon, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "deep-canyon.jpg"
+    },
+    {
+      "id": "DAMP-CAVE",
+      "name": "Damp Cave",
+      "category": "water",
+      "description": "This cave has exits to the west and east, and narrows to a crack toward the south. The earth is particularly damp here.",
+      "prompt_base": "This cave has exits to the west and east, and narrows to a crack toward the south. The earth is particularly damp here., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This cave has exits to the west and east, and narrows to a crack toward the south. The earth is particularly damp here., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This cave has exits to the west and east, and narrows to a crack toward the south. The earth is particularly damp here., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "damp-cave.jpg"
+    },
+    {
+      "id": "LOUD-ROOM",
+      "name": "Loud Room",
+      "category": "other",
+      "description": "A mysterious location known as Loud Room",
+      "prompt_base": "A mysterious location known as Loud Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as Loud Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as Loud Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "loud-room.jpg"
+    },
+    {
+      "id": "NS-PASSAGE",
+      "name": "North-South Passage",
+      "category": "maze",
+      "description": "This is a high north-south passage, which forks to the northeast.",
+      "prompt_base": "This is a high north-south passage, which forks to the northeast., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a high north-south passage, which forks to the northeast., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a high north-south passage, which forks to the northeast., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "north-south-passage.jpg"
+    },
+    {
+      "id": "CHASM-ROOM",
+      "name": "Chasm",
+      "category": "other",
+      "description": "A chasm runs southwest to northeast and the path follows it. You are on the south side of the chasm, where a crack opens into a passage.",
+      "prompt_base": "A chasm runs southwest to northeast and the path follows it. You are on the south side of the chasm, where a crack opens into a passage., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A chasm runs southwest to northeast and the path follows it. You are on the south side of the chasm, where a crack opens into a passage., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A chasm runs southwest to northeast and the path follows it. You are on the south side of the chasm, where a crack opens into a passage., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "chasm.jpg"
+    },
+    {
+      "id": "ENTRANCE-TO-HADES",
+      "name": "Entrance to Hades",
+      "category": "other",
+      "description": "A mysterious location known as Entrance to Hades",
+      "prompt_base": "A mysterious location known as Entrance to Hades, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as Entrance to Hades, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as Entrance to Hades, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "entrance-to-hades.jpg"
+    },
+    {
+      "id": "LAND-OF-LIVING-DEAD",
+      "name": "Land of the Dead",
+      "category": "other",
+      "description": "You have entered the Land of the Living Dead. Thousands of lost souls can be heard weeping and moaning. In the corner are stacked the remains of dozens of previous adventurers less fortunate than yourself. A passage exits to the north.",
+      "prompt_base": "You have entered the Land of the Living Dead. Thousands of lost souls can be heard weeping and moaning. In the corner are stacked the remains of dozens of previous adventurers less fortunate than yourself. A passage exits to the north., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You have entered the Land of the Living Dead. Thousands of lost souls can be heard weeping and moaning. In the corner are stacked the remains of dozens of previous adventurers less fortunate than yourself. A passage exits to the north., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You have entered the Land of the Living Dead. Thousands of lost souls can be heard weeping and moaning. In the corner are stacked the remains of dozens of previous adventurers less fortunate than yourself. A passage exits to the north., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "land-of-the-dead.jpg"
+    },
+    {
+      "id": "ENGRAVINGS-CAVE",
+      "name": "Engravings Cave",
+      "category": "dungeon",
+      "description": "You have entered a low cave with passages leading northwest and east.",
+      "prompt_base": "You have entered a low cave with passages leading northwest and east., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You have entered a low cave with passages leading northwest and east., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You have entered a low cave with passages leading northwest and east., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "engravings-cave.jpg"
+    },
+    {
+      "id": "EGYPT-ROOM",
+      "name": "Egyptian Room",
+      "category": "other",
+      "description": "This is a room which looks like an Egyptian tomb. There is an ascending staircase to the west.",
+      "prompt_base": "This is a room which looks like an Egyptian tomb. There is an ascending staircase to the west., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a room which looks like an Egyptian tomb. There is an ascending staircase to the west., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a room which looks like an Egyptian tomb. There is an ascending staircase to the west., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "egyptian-room.jpg"
+    },
+    {
+      "id": "DOME-ROOM",
+      "name": "Dome Room",
+      "category": "other",
+      "description": "A mysterious location known as Dome Room",
+      "prompt_base": "A mysterious location known as Dome Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as Dome Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as Dome Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "dome-room.jpg"
+    },
+    {
+      "id": "TORCH-ROOM",
+      "name": "Torch Room",
+      "category": "other",
+      "description": "A mysterious location known as Torch Room",
+      "prompt_base": "A mysterious location known as Torch Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as Torch Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as Torch Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "torch-room.jpg"
+    },
+    {
+      "id": "NORTH-TEMPLE",
+      "name": "Temple",
+      "category": "temple",
+      "description": "This is the north end of a large temple. On the east wall is an ancient inscription, probably a prayer in a long-forgotten language. Below the prayer is a staircase leading down. The west wall is solid granite. The exit to the north end of the room is through huge marble pillars.",
+      "prompt_base": "This is the north end of a large temple. On the east wall is an ancient inscription, probably a prayer in a long-forgotten language. Below the prayer is a staircase leading down. The west wall is solid granite. The exit to the north end of the room is through huge marble pillars., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is the north end of a large temple. On the east wall is an ancient inscription, probably a prayer in a long-forgotten language. Below the prayer is a staircase leading down. The west wall is solid granite. The exit to the north end of the room is through huge marble pillars., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is the north end of a large temple. On the east wall is an ancient inscription, probably a prayer in a long-forgotten language. Below the prayer is a staircase leading down. The west wall is solid granite. The exit to the north end of the room is through huge marble pillars., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "temple.jpg"
+    },
+    {
+      "id": "SOUTH-TEMPLE",
+      "name": "Altar",
+      "category": "temple",
+      "description": "This is the south end of a large temple. In front of you is what appears to be an altar. In one corner is a small hole in the floor which leads into darkness. You probably could not get back up it.",
+      "prompt_base": "This is the south end of a large temple. In front of you is what appears to be an altar. In one corner is a small hole in the floor which leads into darkness. You probably could not get back up it., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is the south end of a large temple. In front of you is what appears to be an altar. In one corner is a small hole in the floor which leads into darkness. You probably could not get back up it., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is the south end of a large temple. In front of you is what appears to be an altar. In one corner is a small hole in the floor which leads into darkness. You probably could not get back up it., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "altar.jpg"
+    },
+    {
+      "id": "DAM-ROOM",
+      "name": "Dam",
+      "category": "water",
+      "description": "A mysterious location known as Dam",
+      "prompt_base": "A mysterious location known as Dam, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as Dam, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as Dam, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "dam.jpg"
+    },
+    {
+      "id": "DAM-LOBBY",
+      "name": "Dam Lobby",
+      "category": "water",
+      "description": "This room appears to have been the waiting room for groups touring the dam. There are open doorways here to the north and east marked \\\"Private\\\", and there is a path leading south over the top of the dam.",
+      "prompt_base": "This room appears to have been the waiting room for groups touring the dam. There are open doorways here to the north and east marked \\\"Private\\\", and there is a path leading south over the top of the dam., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This room appears to have been the waiting room for groups touring the dam. There are open doorways here to the north and east marked \\\"Private\\\", and there is a path leading south over the top of the dam., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This room appears to have been the waiting room for groups touring the dam. There are open doorways here to the north and east marked \\\"Private\\\", and there is a path leading south over the top of the dam., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "dam-lobby.jpg"
+    },
+    {
+      "id": "MAINTENANCE-ROOM",
+      "name": "Maintenance Room",
+      "category": "other",
+      "description": "This is what appears to have been the maintenance room for Flood Control Dam #3. Apparently, this room has been ransacked recently, for most of the valuable equipment is gone. On the wall in front of you is a group of buttons colored blue, yellow, brown, and red. There are doorways to the west and south.",
+      "prompt_base": "This is what appears to have been the maintenance room for Flood Control Dam #3. Apparently, this room has been ransacked recently, for most of the valuable equipment is gone. On the wall in front of you is a group of buttons colored blue, yellow, brown, and red. There are doorways to the west and south., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is what appears to have been the maintenance room for Flood Control Dam #3. Apparently, this room has been ransacked recently, for most of the valuable equipment is gone. On the wall in front of you is a group of buttons colored blue, yellow, brown, and red. There are doorways to the west and south., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is what appears to have been the maintenance room for Flood Control Dam #3. Apparently, this room has been ransacked recently, for most of the valuable equipment is gone. On the wall in front of you is a group of buttons colored blue, yellow, brown, and red. There are doorways to the west and south., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "maintenance-room.jpg"
+    },
+    {
+      "id": "DAM-BASE",
+      "name": "Dam Base",
+      "category": "water",
+      "description": "You are at the base of Flood Control Dam #3, which looms above you and to the north. The river Frigid is flowing by here. Along the river are the White Cliffs which seem to form giant walls stretching from north to south along the shores of the river as it winds its way downstream.",
+      "prompt_base": "You are at the base of Flood Control Dam #3, which looms above you and to the north. The river Frigid is flowing by here. Along the river are the White Cliffs which seem to form giant walls stretching from north to south along the shores of the river as it winds its way downstream., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You are at the base of Flood Control Dam #3, which looms above you and to the north. The river Frigid is flowing by here. Along the river are the White Cliffs which seem to form giant walls stretching from north to south along the shores of the river as it winds its way downstream., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You are at the base of Flood Control Dam #3, which looms above you and to the north. The river Frigid is flowing by here. Along the river are the White Cliffs which seem to form giant walls stretching from north to south along the shores of the river as it winds its way downstream., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "dam-base.jpg"
+    },
+    {
+      "id": "RIVER-1",
+      "name": "Frigid River",
+      "category": "water",
+      "description": "You are on the Frigid River in the vicinity of the Dam. The river flows quietly here. There is a landing on the west shore.",
+      "prompt_base": "You are on the Frigid River in the vicinity of the Dam. The river flows quietly here. There is a landing on the west shore., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You are on the Frigid River in the vicinity of the Dam. The river flows quietly here. There is a landing on the west shore., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You are on the Frigid River in the vicinity of the Dam. The river flows quietly here. There is a landing on the west shore., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "frigid-river.jpg"
+    },
+    {
+      "id": "RIVER-2",
+      "name": "Frigid River",
+      "category": "water",
+      "description": "The river turns a corner here making it impossible to see the Dam. The White Cliffs loom on the east bank and large rocks prevent landing on the west.",
+      "prompt_base": "The river turns a corner here making it impossible to see the Dam. The White Cliffs loom on the east bank and large rocks prevent landing on the west., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "The river turns a corner here making it impossible to see the Dam. The White Cliffs loom on the east bank and large rocks prevent landing on the west., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "The river turns a corner here making it impossible to see the Dam. The White Cliffs loom on the east bank and large rocks prevent landing on the west., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "frigid-river.jpg"
+    },
+    {
+      "id": "RIVER-3",
+      "name": "Frigid River",
+      "category": "water",
+      "description": "The river descends here into a valley. There is a narrow beach on the west shore below the cliffs. In the distance a faint rumbling can be heard.",
+      "prompt_base": "The river descends here into a valley. There is a narrow beach on the west shore below the cliffs. In the distance a faint rumbling can be heard., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "The river descends here into a valley. There is a narrow beach on the west shore below the cliffs. In the distance a faint rumbling can be heard., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "The river descends here into a valley. There is a narrow beach on the west shore below the cliffs. In the distance a faint rumbling can be heard., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "frigid-river.jpg"
+    },
+    {
+      "id": "WHITE-CLIFFS-NORTH",
+      "name": "White Cliffs Beach",
+      "category": "other",
+      "description": "You are on a narrow strip of beach which runs along the base of the White Cliffs. There is a narrow path heading south along the Cliffs and a tight passage leading west into the cliffs themselves.",
+      "prompt_base": "You are on a narrow strip of beach which runs along the base of the White Cliffs. There is a narrow path heading south along the Cliffs and a tight passage leading west into the cliffs themselves., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You are on a narrow strip of beach which runs along the base of the White Cliffs. There is a narrow path heading south along the Cliffs and a tight passage leading west into the cliffs themselves., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You are on a narrow strip of beach which runs along the base of the White Cliffs. There is a narrow path heading south along the Cliffs and a tight passage leading west into the cliffs themselves., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "white-cliffs-beach.jpg"
+    },
+    {
+      "id": "WHITE-CLIFFS-SOUTH",
+      "name": "White Cliffs Beach",
+      "category": "other",
+      "description": "You are on a rocky, narrow strip of beach beside the Cliffs. A narrow path leads north along the shore.",
+      "prompt_base": "You are on a rocky, narrow strip of beach beside the Cliffs. A narrow path leads north along the shore., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You are on a rocky, narrow strip of beach beside the Cliffs. A narrow path leads north along the shore., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You are on a rocky, narrow strip of beach beside the Cliffs. A narrow path leads north along the shore., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "white-cliffs-beach.jpg"
+    },
+    {
+      "id": "RIVER-4",
+      "name": "Frigid River",
+      "category": "water",
+      "description": "The river is running faster here and the sound ahead appears to be that of rushing water. On the east shore is a sandy beach. A small area of beach can also be seen below the cliffs on the west shore.",
+      "prompt_base": "The river is running faster here and the sound ahead appears to be that of rushing water. On the east shore is a sandy beach. A small area of beach can also be seen below the cliffs on the west shore., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "The river is running faster here and the sound ahead appears to be that of rushing water. On the east shore is a sandy beach. A small area of beach can also be seen below the cliffs on the west shore., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "The river is running faster here and the sound ahead appears to be that of rushing water. On the east shore is a sandy beach. A small area of beach can also be seen below the cliffs on the west shore., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "frigid-river.jpg"
+    },
+    {
+      "id": "RIVER-5",
+      "name": "Frigid River",
+      "category": "water",
+      "description": "The sound of rushing water is nearly unbearable here. On the east shore is a large landing area.",
+      "prompt_base": "The sound of rushing water is nearly unbearable here. On the east shore is a large landing area., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "The sound of rushing water is nearly unbearable here. On the east shore is a large landing area., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "The sound of rushing water is nearly unbearable here. On the east shore is a large landing area., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "frigid-river.jpg"
+    },
+    {
+      "id": "SHORE",
+      "name": "Shore",
+      "category": "other",
+      "description": "You are on the east shore of the river. The water here seems somewhat treacherous. A path travels from north to south here, the south end quickly turning around a sharp corner.",
+      "prompt_base": "You are on the east shore of the river. The water here seems somewhat treacherous. A path travels from north to south here, the south end quickly turning around a sharp corner., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You are on the east shore of the river. The water here seems somewhat treacherous. A path travels from north to south here, the south end quickly turning around a sharp corner., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You are on the east shore of the river. The water here seems somewhat treacherous. A path travels from north to south here, the south end quickly turning around a sharp corner., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "shore.jpg"
+    },
+    {
+      "id": "SANDY-BEACH",
+      "name": "Sandy Beach",
+      "category": "other",
+      "description": "You are on a large sandy beach on the east shore of the river, which is flowing quickly by. A path runs beside the river to the south here, and a passage is partially buried in sand to the northeast.",
+      "prompt_base": "You are on a large sandy beach on the east shore of the river, which is flowing quickly by. A path runs beside the river to the south here, and a passage is partially buried in sand to the northeast., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You are on a large sandy beach on the east shore of the river, which is flowing quickly by. A path runs beside the river to the south here, and a passage is partially buried in sand to the northeast., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You are on a large sandy beach on the east shore of the river, which is flowing quickly by. A path runs beside the river to the south here, and a passage is partially buried in sand to the northeast., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "sandy-beach.jpg"
+    },
+    {
+      "id": "SANDY-CAVE",
+      "name": "Sandy Cave",
+      "category": "dungeon",
+      "description": "This is a sand-filled cave whose exit is to the southwest.",
+      "prompt_base": "This is a sand-filled cave whose exit is to the southwest., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a sand-filled cave whose exit is to the southwest., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a sand-filled cave whose exit is to the southwest., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "sandy-cave.jpg"
+    },
+    {
+      "id": "ARAGAIN-FALLS",
+      "name": "Aragain Falls",
+      "category": "other",
+      "description": "A mysterious location known as Aragain Falls",
+      "prompt_base": "A mysterious location known as Aragain Falls, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as Aragain Falls, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as Aragain Falls, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "aragain-falls.jpg"
+    },
+    {
+      "id": "ON-RAINBOW",
+      "name": "On the Rainbow",
+      "category": "other",
+      "description": "You are on top of a rainbow (I bet you never thought you would walk on a rainbow), with a magnificent view of the Falls. The rainbow travels east-west here.",
+      "prompt_base": "You are on top of a rainbow (I bet you never thought you would walk on a rainbow), with a magnificent view of the Falls. The rainbow travels east-west here., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You are on top of a rainbow (I bet you never thought you would walk on a rainbow), with a magnificent view of the Falls. The rainbow travels east-west here., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You are on top of a rainbow (I bet you never thought you would walk on a rainbow), with a magnificent view of the Falls. The rainbow travels east-west here., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "on-the-rainbow.jpg"
+    },
+    {
+      "id": "END-OF-RAINBOW",
+      "name": "End of Rainbow",
+      "category": "other",
+      "description": "You are on a small, rocky beach on the continuation of the Frigid River past the Falls. The beach is narrow due to the presence of the White Cliffs. The river canyon opens here and sunlight shines in from above. A rainbow crosses over the falls to the east and a narrow path continues to the southwest.",
+      "prompt_base": "You are on a small, rocky beach on the continuation of the Frigid River past the Falls. The beach is narrow due to the presence of the White Cliffs. The river canyon opens here and sunlight shines in from above. A rainbow crosses over the falls to the east and a narrow path continues to the southwest., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You are on a small, rocky beach on the continuation of the Frigid River past the Falls. The beach is narrow due to the presence of the White Cliffs. The river canyon opens here and sunlight shines in from above. A rainbow crosses over the falls to the east and a narrow path continues to the southwest., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You are on a small, rocky beach on the continuation of the Frigid River past the Falls. The beach is narrow due to the presence of the White Cliffs. The river canyon opens here and sunlight shines in from above. A rainbow crosses over the falls to the east and a narrow path continues to the southwest., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "end-of-rainbow.jpg"
+    },
+    {
+      "id": "CANYON-BOTTOM",
+      "name": "Canyon Bottom",
+      "category": "other",
+      "description": "You are beneath the walls of the river canyon which may be climbable here. The lesser part of the runoff of Aragain Falls flows by below. To the north is a narrow path.",
+      "prompt_base": "You are beneath the walls of the river canyon which may be climbable here. The lesser part of the runoff of Aragain Falls flows by below. To the north is a narrow path., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You are beneath the walls of the river canyon which may be climbable here. The lesser part of the runoff of Aragain Falls flows by below. To the north is a narrow path., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You are beneath the walls of the river canyon which may be climbable here. The lesser part of the runoff of Aragain Falls flows by below. To the north is a narrow path., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "canyon-bottom.jpg"
+    },
+    {
+      "id": "CLIFF-MIDDLE",
+      "name": "Rocky Ledge",
+      "category": "other",
+      "description": "You are on a ledge about halfway up the wall of the river canyon. You can see from here that the main flow from Aragain Falls twists along a passage which it is impossible for you to enter. Below you is the canyon bottom. Above you is more cliff, which appears climbable.",
+      "prompt_base": "You are on a ledge about halfway up the wall of the river canyon. You can see from here that the main flow from Aragain Falls twists along a passage which it is impossible for you to enter. Below you is the canyon bottom. Above you is more cliff, which appears climbable., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You are on a ledge about halfway up the wall of the river canyon. You can see from here that the main flow from Aragain Falls twists along a passage which it is impossible for you to enter. Below you is the canyon bottom. Above you is more cliff, which appears climbable., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You are on a ledge about halfway up the wall of the river canyon. You can see from here that the main flow from Aragain Falls twists along a passage which it is impossible for you to enter. Below you is the canyon bottom. Above you is more cliff, which appears climbable., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "rocky-ledge.jpg"
+    },
+    {
+      "id": "CANYON-VIEW",
+      "name": "Canyon View",
+      "category": "dungeon",
+      "description": "You are at the top of the Great Canyon on its west wall. From here there is a marvelous view of the canyon and parts of the Frigid River upstream. Across the canyon, the walls of the White Cliffs join the mighty ramparts of the Flathead Mountains to the east. Following the Canyon upstream to the north, Aragain Falls may be seen, complete with rainbow. The mighty Frigid River flows out from a great dark cavern. To the west and south can be seen an immense forest, stretching for miles around. A path leads northwest. It is possible to climb down into the canyon from here.",
+      "prompt_base": "You are at the top of the Great Canyon on its west wall. From here there is a marvelous view of the canyon and parts of the Frigid River upstream. Across the canyon, the walls of the White Cliffs join the mighty ramparts of the Flathead Mountains to the east. Following the Canyon upstream to the north, Aragain Falls may be seen, complete with rainbow. The mighty Frigid River flows out from a great dark cavern. To the west and south can be seen an immense forest, stretching for miles around. A path leads northwest. It is possible to climb down into the canyon from here., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You are at the top of the Great Canyon on its west wall. From here there is a marvelous view of the canyon and parts of the Frigid River upstream. Across the canyon, the walls of the White Cliffs join the mighty ramparts of the Flathead Mountains to the east. Following the Canyon upstream to the north, Aragain Falls may be seen, complete with rainbow. The mighty Frigid River flows out from a great dark cavern. To the west and south can be seen an immense forest, stretching for miles around. A path leads northwest. It is possible to climb down into the canyon from here., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You are at the top of the Great Canyon on its west wall. From here there is a marvelous view of the canyon and parts of the Frigid River upstream. Across the canyon, the walls of the White Cliffs join the mighty ramparts of the Flathead Mountains to the east. Following the Canyon upstream to the north, Aragain Falls may be seen, complete with rainbow. The mighty Frigid River flows out from a great dark cavern. To the west and south can be seen an immense forest, stretching for miles around. A path leads northwest. It is possible to climb down into the canyon from here., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "canyon-view.jpg"
+    },
+    {
+      "id": "MINE-ENTRANCE",
+      "name": "Mine Entrance",
+      "category": "other",
+      "description": "You are standing at the entrance of what might have been a coal mine. The shaft enters the west wall, and there is another exit on the south end of the room.",
+      "prompt_base": "You are standing at the entrance of what might have been a coal mine. The shaft enters the west wall, and there is another exit on the south end of the room., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You are standing at the entrance of what might have been a coal mine. The shaft enters the west wall, and there is another exit on the south end of the room., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You are standing at the entrance of what might have been a coal mine. The shaft enters the west wall, and there is another exit on the south end of the room., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "mine-entrance.jpg"
+    },
+    {
+      "id": "SQUEEKY-ROOM",
+      "name": "Squeaky Room",
+      "category": "other",
+      "description": "You are in a small room. Strange squeaky sounds may be heard coming from the passage at the north end. You may also escape to the east.",
+      "prompt_base": "You are in a small room. Strange squeaky sounds may be heard coming from the passage at the north end. You may also escape to the east., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You are in a small room. Strange squeaky sounds may be heard coming from the passage at the north end. You may also escape to the east., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You are in a small room. Strange squeaky sounds may be heard coming from the passage at the north end. You may also escape to the east., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "squeaky-room.jpg"
+    },
+    {
+      "id": "BAT-ROOM",
+      "name": "Bat Room",
+      "category": "other",
+      "description": "A mysterious location known as Bat Room",
+      "prompt_base": "A mysterious location known as Bat Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as Bat Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as Bat Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "bat-room.jpg"
+    },
+    {
+      "id": "SHAFT-ROOM",
+      "name": "Shaft Room",
+      "category": "other",
+      "description": "This is a large room, in the middle of which is a small shaft descending through the floor into darkness below. To the west and the north are exits from this room. Constructed over the top of the shaft is a metal framework to which a heavy iron chain is attached.",
+      "prompt_base": "This is a large room, in the middle of which is a small shaft descending through the floor into darkness below. To the west and the north are exits from this room. Constructed over the top of the shaft is a metal framework to which a heavy iron chain is attached., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a large room, in the middle of which is a small shaft descending through the floor into darkness below. To the west and the north are exits from this room. Constructed over the top of the shaft is a metal framework to which a heavy iron chain is attached., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a large room, in the middle of which is a small shaft descending through the floor into darkness below. To the west and the north are exits from this room. Constructed over the top of the shaft is a metal framework to which a heavy iron chain is attached., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "shaft-room.jpg"
+    },
+    {
+      "id": "SMELLY-ROOM",
+      "name": "Smelly Room",
+      "category": "other",
+      "description": "This is a small nondescript room. However, from the direction of a small descending staircase a foul odor can be detected. To the south is a narrow tunnel.",
+      "prompt_base": "This is a small nondescript room. However, from the direction of a small descending staircase a foul odor can be detected. To the south is a narrow tunnel., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a small nondescript room. However, from the direction of a small descending staircase a foul odor can be detected. To the south is a narrow tunnel., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a small nondescript room. However, from the direction of a small descending staircase a foul odor can be detected. To the south is a narrow tunnel., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "smelly-room.jpg"
+    },
+    {
+      "id": "GAS-ROOM",
+      "name": "Gas Room",
+      "category": "other",
+      "description": "This is a small room which smells strongly of coal gas. There is a short climb up some stairs and a narrow tunnel leading east.",
+      "prompt_base": "This is a small room which smells strongly of coal gas. There is a short climb up some stairs and a narrow tunnel leading east., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a small room which smells strongly of coal gas. There is a short climb up some stairs and a narrow tunnel leading east., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a small room which smells strongly of coal gas. There is a short climb up some stairs and a narrow tunnel leading east., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "gas-room.jpg"
+    },
+    {
+      "id": "LADDER-TOP",
+      "name": "Ladder Top",
+      "category": "other",
+      "description": "This is a very small room. In the corner is a rickety wooden ladder, leading downward. It might be safe to descend. There is also a staircase leading upward.",
+      "prompt_base": "This is a very small room. In the corner is a rickety wooden ladder, leading downward. It might be safe to descend. There is also a staircase leading upward., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a very small room. In the corner is a rickety wooden ladder, leading downward. It might be safe to descend. There is also a staircase leading upward., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a very small room. In the corner is a rickety wooden ladder, leading downward. It might be safe to descend. There is also a staircase leading upward., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "ladder-top.jpg"
+    },
+    {
+      "id": "LADDER-BOTTOM",
+      "name": "Ladder Bottom",
+      "category": "other",
+      "description": "This is a rather wide room. On one side is the bottom of a narrow wooden ladder. To the west and the south are passages leaving the room.",
+      "prompt_base": "This is a rather wide room. On one side is the bottom of a narrow wooden ladder. To the west and the south are passages leaving the room., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a rather wide room. On one side is the bottom of a narrow wooden ladder. To the west and the south are passages leaving the room., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a rather wide room. On one side is the bottom of a narrow wooden ladder. To the west and the south are passages leaving the room., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "ladder-bottom.jpg"
+    },
+    {
+      "id": "DEAD-END-5",
+      "name": "Dead End",
+      "category": "other",
+      "description": "You have come to a dead end in the mine.",
+      "prompt_base": "You have come to a dead end in the mine., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "You have come to a dead end in the mine., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "You have come to a dead end in the mine., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "dead-end.jpg"
+    },
+    {
+      "id": "TIMBER-ROOM",
+      "name": "Timber Room",
+      "category": "other",
+      "description": "This is a long and narrow passage, which is cluttered with broken timbers. A wide passage comes from the east and turns at the west end of the room into a very narrow passageway. From the west comes a strong draft.",
+      "prompt_base": "This is a long and narrow passage, which is cluttered with broken timbers. A wide passage comes from the east and turns at the west end of the room into a very narrow passageway. From the west comes a strong draft., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a long and narrow passage, which is cluttered with broken timbers. A wide passage comes from the east and turns at the west end of the room into a very narrow passageway. From the west comes a strong draft., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a long and narrow passage, which is cluttered with broken timbers. A wide passage comes from the east and turns at the west end of the room into a very narrow passageway. From the west comes a strong draft., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "timber-room.jpg"
+    },
+    {
+      "id": "LOWER-SHAFT",
+      "name": "Drafty Room",
+      "category": "other",
+      "description": "This is a small drafty room in which is the bottom of a long shaft. To the south is a passageway and to the east a very narrow passage. In the shaft can be seen a heavy iron chain.",
+      "prompt_base": "This is a small drafty room in which is the bottom of a long shaft. To the south is a passageway and to the east a very narrow passage. In the shaft can be seen a heavy iron chain., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a small drafty room in which is the bottom of a long shaft. To the south is a passageway and to the east a very narrow passage. In the shaft can be seen a heavy iron chain., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a small drafty room in which is the bottom of a long shaft. To the south is a passageway and to the east a very narrow passage. In the shaft can be seen a heavy iron chain., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "drafty-room.jpg"
+    },
+    {
+      "id": "MACHINE-ROOM",
+      "name": "Machine Room",
+      "category": "other",
+      "description": "A mysterious location known as Machine Room",
+      "prompt_base": "A mysterious location known as Machine Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "A mysterious location known as Machine Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "A mysterious location known as Machine Room, retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "machine-room.jpg"
+    },
+    {
+      "id": "MINE-1",
+      "name": "Coal Mine",
+      "category": "other",
+      "description": "This is a nondescript part of a coal mine.",
+      "prompt_base": "This is a nondescript part of a coal mine., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a nondescript part of a coal mine., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a nondescript part of a coal mine., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "coal-mine.jpg"
+    },
+    {
+      "id": "MINE-2",
+      "name": "Coal Mine",
+      "category": "other",
+      "description": "This is a nondescript part of a coal mine.",
+      "prompt_base": "This is a nondescript part of a coal mine., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a nondescript part of a coal mine., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a nondescript part of a coal mine., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "coal-mine.jpg"
+    },
+    {
+      "id": "MINE-3",
+      "name": "Coal Mine",
+      "category": "other",
+      "description": "This is a nondescript part of a coal mine.",
+      "prompt_base": "This is a nondescript part of a coal mine., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a nondescript part of a coal mine., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a nondescript part of a coal mine., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "coal-mine.jpg"
+    },
+    {
+      "id": "MINE-4",
+      "name": "Coal Mine",
+      "category": "other",
+      "description": "This is a nondescript part of a coal mine.",
+      "prompt_base": "This is a nondescript part of a coal mine., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a nondescript part of a coal mine., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a nondescript part of a coal mine., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "coal-mine.jpg"
+    },
+    {
+      "id": "SLIDE-ROOM",
+      "name": "Slide Room",
+      "category": "dungeon",
+      "description": "This is a small chamber, which appears to have been part of a coal mine. On the south wall of the chamber the letters \\\"Granite Wall\\\" are etched in the rock. To the east is a long passage, and there is a steep metal slide twisting downward. To the north is a small opening.",
+      "prompt_base": "This is a small chamber, which appears to have been part of a coal mine. On the south wall of the chamber the letters \\\"Granite Wall\\\" are etched in the rock. To the east is a long passage, and there is a steep metal slide twisting downward. To the north is a small opening., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "prompt_midjourney": "This is a small chamber, which appears to have been part of a coal mine. On the south wall of the chamber the letters \\\"Granite Wall\\\" are etched in the rock. To the east is a long passage, and there is a steep metal slide twisting downward. To the north is a small opening., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition --ar 4:3 --s 400",
+      "prompt_dalle": "This is a small chamber, which appears to have been part of a coal mine. On the south wall of the chamber the letters \\\"Granite Wall\\\" are etched in the rock. To the east is a long passage, and there is a steep metal slide twisting downward. To the north is a small opening., retro 1980s fantasy RPG illustration, hand-painted style, reminiscent of classic Dungeons & Dragons adventure module artwork, rich colors, atmospheric lighting, fantastical and mysterious mood, vintage tabletop game aesthetic, painted by artists like Larry Elmore or Keith Parkinson, slight paper texture, adventurous composition",
+      "filename": "slide-room.jpg"
+    }
+  ]
+}

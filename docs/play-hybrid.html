@@ -304,34 +304,52 @@
         function checkGameState() {
             try {
                 const iframe = document.getElementById('gameIframe');
+                if (!iframe) {
+                    console.log('Iframe not found');
+                    return;
+                }
+
                 const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+                if (!iframeDoc) {
+                    console.log('Cannot access iframe document (CORS restriction)');
+                    return;
+                }
 
                 // Find the status bar (window3)
                 const statusBar = iframeDoc.getElementById('window3');
-                if (statusBar) {
-                    const statusText = statusBar.textContent || statusBar.innerText;
+                if (!statusBar) {
+                    console.log('Status bar (window3) not found in iframe');
+                    return;
+                }
 
-                    // Parse the status: "RoomName                Score: X  Moves: Y"
-                    // Extract room name (everything before "Score:")
-                    const match = statusText.match(/^\s*([^S]+?)\s+Score:\s*(\d+)\s+Moves:\s*(\d+)/);
+                const statusText = statusBar.textContent || statusBar.innerText;
+                console.log('Status bar text:', statusText);
 
-                    if (match) {
-                        const roomName = match[1].trim();
-                        const score = parseInt(match[2]);
-                        const moves = parseInt(match[3]);
+                // Parse the status: "RoomName                Score: X  Moves: Y"
+                // Extract room name (everything before "Score:")
+                const match = statusText.match(/^\s*([^S]+?)\s+Score:\s*(\d+)\s+Moves:\s*(\d+)/);
 
-                        // Update if changed
-                        if (roomName !== currentRoomName) {
-                            currentRoomName = roomName;
-                            updateSceneForRoom(roomName);
-                        }
+                if (match) {
+                    const roomName = match[1].trim();
+                    const score = parseInt(match[2]);
+                    const moves = parseInt(match[3]);
 
-                        currentScore = score;
-                        currentMoves = moves;
+                    console.log('Parsed:', { roomName, score, moves });
+
+                    // Update if changed
+                    if (roomName !== currentRoomName) {
+                        console.log('Room changed from', currentRoomName, 'to', roomName);
+                        currentRoomName = roomName;
+                        updateSceneForRoom(roomName);
                     }
+
+                    currentScore = score;
+                    currentMoves = moves;
+                } else {
+                    console.log('Status text did not match expected pattern');
                 }
             } catch (error) {
-                // Can't access iframe - silently ignore
+                console.log('Error accessing iframe:', error.message);
             }
         }
 

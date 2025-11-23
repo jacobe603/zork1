@@ -160,7 +160,16 @@ class ZorkGame {
             return;
         }
 
+        // Set a timeout to detect if iframe is blocked (e.g., by ad blocker)
+        this.loadTimeout = setTimeout(() => {
+            if (!this.gameStarted) {
+                this.showError('Iframe blocked by browser or extension');
+                this.startFallbackMode('blocked');
+            }
+        }, 5000); // 5 second timeout
+
         this.iframe.onload = () => {
+            clearTimeout(this.loadTimeout);
             this.updateStatus('Z-Machine loaded, establishing connection...');
 
             try {
@@ -183,13 +192,14 @@ class ZorkGame {
                 }
             } catch (error) {
                 this.showError('Connection limited: ' + error.message);
-                this.startFallbackMode();
+                this.startFallbackMode('cors');
             }
         };
 
         this.iframe.onerror = () => {
+            clearTimeout(this.loadTimeout);
             this.showError('Failed to load Z-Machine game file');
-            this.startFallbackMode();
+            this.startFallbackMode('error');
         };
     }
 
@@ -454,22 +464,73 @@ class ZorkGame {
         this.updateStatus('⚠️ ' + message);
     }
 
-    startFallbackMode() {
+    startFallbackMode(reason = 'unknown') {
         this.addToOutput('', '');
-        this.addToOutput('=== DEMO MODE ===', 'system');
-        this.addToOutput('The complete Z-machine game file could not be fully integrated.', 'system');
-        this.addToOutput('You can still play the full game by opening: COMPILED/zork1.z3.html', 'system');
-        this.addToOutput('', '');
-        this.addToOutput('ZORK I: The Great Underground Empire', 'room-name');
-        this.addToOutput('Copyright (c) 1983 Infocom, Inc. All rights reserved.', 'game-output');
-        this.addToOutput('', '');
-        this.addToOutput('West of House', 'room-name');
-        this.addToOutput('You are standing in an open field west of a white house, with a boarded front door.', 'game-output');
-        this.addToOutput('There is a small mailbox here.', 'game-output');
+        this.addToOutput('═══════════════════════════════════════════════════════════', 'system');
+        this.addToOutput('⚠️  IFRAME INTEGRATION UNAVAILABLE', 'system');
+        this.addToOutput('═══════════════════════════════════════════════════════════', 'system');
         this.addToOutput('', '');
 
-        this.updateRoomDisplay('West of House', this.rooms['West of House']);
-        this.gameStarted = true;
+        if (reason === 'blocked') {
+            this.addToOutput('❌ The game iframe is being blocked by:', 'error');
+            this.addToOutput('   • Browser extension (Ad blocker, Privacy Badger, uBlock Origin, etc.)', 'system');
+            this.addToOutput('   • Browser security settings', 'system');
+            this.addToOutput('   • Corporate firewall or content filter', 'system');
+            this.addToOutput('', '');
+            this.addToOutput('✅ SOLUTIONS:', 'system');
+            this.addToOutput('', '');
+            this.addToOutput('Option 1: PLAY STANDALONE (RECOMMENDED)', 'system');
+            this.addToOutput('Click this link to play the complete game:', 'system');
+            this.addToOutput('', '');
+
+            // Create a clickable link in the output
+            const output = document.getElementById('output');
+            const linkP = document.createElement('p');
+            linkP.className = 'system';
+            linkP.innerHTML = '   → <a href="zork1.z3.html" target="_blank" style="color: #00ff00; text-decoration: underline; font-weight: bold;">OPEN FULL ZORK I GAME</a>';
+            output.appendChild(linkP);
+
+            this.addToOutput('', '');
+            this.addToOutput('Option 2: Disable Ad Blocker', 'system');
+            this.addToOutput('   1. Click your ad blocker extension icon', 'system');
+            this.addToOutput('   2. Choose "Disable on this site" or similar', 'system');
+            this.addToOutput('   3. Refresh the page (F5 or Cmd+R)', 'system');
+            this.addToOutput('', '');
+            this.addToOutput('Option 3: Try a Different Browser', 'system');
+            this.addToOutput('   • Chrome, Firefox, Safari, or Edge without extensions', 'system');
+        } else if (reason === 'cors') {
+            this.addToOutput('⚠️  Browser security restrictions prevent iframe access.', 'system');
+            this.addToOutput('', '');
+            this.addToOutput('✅ SOLUTION: Open the standalone game:', 'system');
+            this.addToOutput('', '');
+
+            const output = document.getElementById('output');
+            const linkP = document.createElement('p');
+            linkP.className = 'system';
+            linkP.innerHTML = '   → <a href="zork1.z3.html" target="_blank" style="color: #00ff00; text-decoration: underline; font-weight: bold;">PLAY FULL GAME HERE</a>';
+            output.appendChild(linkP);
+        } else {
+            this.addToOutput('⚠️  The game file could not be loaded.', 'system');
+            this.addToOutput('', '');
+            this.addToOutput('✅ SOLUTION: Try the standalone version:', 'system');
+            this.addToOutput('', '');
+
+            const output = document.getElementById('output');
+            const linkP = document.createElement('p');
+            linkP.className = 'system';
+            linkP.innerHTML = '   → <a href="zork1.z3.html" target="_blank" style="color: #00ff00; text-decoration: underline; font-weight: bold;">OPEN STANDALONE GAME</a>';
+            output.appendChild(linkP);
+        }
+
+        this.addToOutput('', '');
+        this.addToOutput('═══════════════════════════════════════════════════════════', 'system');
+        this.addToOutput('', '');
+        this.addToOutput('Note: The standalone version has the complete game without the', 'system');
+        this.addToOutput('custom GUI, but includes all 110+ rooms and full functionality.', 'system');
+        this.addToOutput('', '');
+
+        this.updateRoomDisplay('Integration Unavailable', { emoji: '⚠️', color: '#FFFF00' });
+        this.updateStatus('⚠️ Please use standalone version');
     }
 }
 

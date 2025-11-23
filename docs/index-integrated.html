@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZORK I - Complete Z-Machine Edition</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Additional styles for integrated version */
+        #gameFrame {
+            display: none; /* Hide the iframe, we'll extract output */
+        }
+
+        .integration-notice {
+            background: #1a3a1a;
+            border: 1px solid #00ff00;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 12px;
+            color: #00ff00;
+        }
+
+        .output-area {
+            font-family: 'Courier New', monospace;
+            color: #00ff00;
+            line-height: 1.6;
+        }
+
+        /* Make iframe overlay for extraction */
+        .iframe-container {
+            position: absolute;
+            left: -9999px;
+            width: 800px;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ZORK I: The Great Underground Empire</h1>
+            <p class="subtitle">Complete Z-Machine Edition with Custom GUI</p>
+        </header>
+
+        <div class="integration-notice">
+            ✓ Running complete authentic Z-machine version (110+ rooms)<br>
+            ✓ Custom GUI with compass navigation and scene display<br>
+            ✓ Room detection active
+        </div>
+
+        <div class="game-area">
+            <!-- Left panel: Scene image -->
+            <div class="scene-panel">
+                <div class="scene-image" id="sceneImage">
+                    <div class="placeholder-scene">
+                        <span id="sceneTitle">Loading...</span>
+                    </div>
+                </div>
+
+                <!-- Room info -->
+                <div class="room-info">
+                    <h2 id="roomName">Initializing...</h2>
+                    <div class="compass">
+                        <button class="compass-btn north" data-dir="north" title="North">N</button>
+                        <button class="compass-btn south" data-dir="south" title="South">S</button>
+                        <button class="compass-btn east" data-dir="east" title="East">E</button>
+                        <button class="compass-btn west" data-dir="west" title="West">W</button>
+                        <button class="compass-btn ne" data-dir="northeast" title="Northeast">NE</button>
+                        <button class="compass-btn nw" data-dir="northwest" title="Northwest">NW</button>
+                        <button class="compass-btn se" data-dir="southeast" title="Southeast">SE</button>
+                        <button class="compass-btn sw" data-dir="southwest" title="Southwest">SW</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right panel: Text output and input -->
+            <div class="text-panel">
+                <div class="output-area" id="output"></div>
+
+                <div class="input-area">
+                    <span class="prompt">&gt;</span>
+                    <input type="text" id="commandInput" autocomplete="off" autofocus placeholder="Enter command...">
+                </div>
+
+                <!-- Inventory panel -->
+                <div class="inventory-panel">
+                    <h3>Inventory</h3>
+                    <ul id="inventoryList">
+                        <li class="empty">Loading...</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick command buttons -->
+        <div class="quick-commands">
+            <button onclick="if(window.zorkGame) zorkGame.sendCommand('look')">Look</button>
+            <button onclick="if(window.zorkGame) zorkGame.sendCommand('inventory')">Inventory</button>
+            <button onclick="if(window.zorkGame) zorkGame.sendCommand('score')">Score</button>
+        </div>
+    </div>
+
+    <!-- Hidden iframe to run the Z-machine game -->
+    <div class="iframe-container">
+        <iframe id="gameFrame" src="../COMPILED/zork1.z3.html"></iframe>
+    </div>
+
+    <script src="game-integrated.js"></script>
+</body>
+</html>

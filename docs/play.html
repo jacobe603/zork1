@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZORK I - Complete Edition with GUI</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Enhanced styles for the complete edition */
+        .game-container {
+            position: relative;
+        }
+
+        .zmachine-display {
+            width: 100%;
+            height: 100%;
+            border: none;
+            background: transparent;
+            color: #00ff00;
+            font-family: 'Courier New', monospace;
+        }
+
+        .integration-status {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background: rgba(0, 100, 0, 0.8);
+            color: #00ff00;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 11px;
+            border: 1px solid #00ff00;
+            z-index: 1000;
+        }
+
+        .output-area {
+            min-height: 400px;
+            max-height: 500px;
+            overflow-y: auto;
+            background: #0a0a0a;
+            border: 2px solid #00ff00;
+            padding: 15px;
+            font-family: 'Courier New', monospace;
+            color: #00ff00;
+            line-height: 1.6;
+        }
+
+        .output-area p {
+            margin: 5px 0;
+        }
+
+        .output-area .user-input {
+            color: #00ff00;
+            font-weight: bold;
+        }
+
+        .output-area .game-output {
+            color: #00cc00;
+        }
+
+        .output-area .system {
+            color: #ffff00;
+            font-style: italic;
+        }
+
+        .output-area .error {
+            color: #ff0000;
+        }
+
+        .output-area .room-name {
+            color: #00ffff;
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-top: 10px;
+        }
+
+        .hidden-iframe {
+            position: absolute;
+            left: -10000px;
+            top: -10000px;
+            width: 1px;
+            height: 1px;
+            opacity: 0;
+        }
+
+        .info-panel {
+            background: #1a3a1a;
+            border: 1px solid #00ff00;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        .info-panel h3 {
+            margin: 0 0 10px 0;
+            color: #00ff00;
+        }
+
+        .info-panel ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .compass-btn:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ZORK I: The Great Underground Empire</h1>
+            <p class="subtitle">Complete Z-Machine Edition - All 110+ Rooms</p>
+        </header>
+
+        <div class="info-panel">
+            <h3>✓ Complete Integration Active</h3>
+            <ul style="list-style: none; padding-left: 0; margin: 5px 0;">
+                <li>✓ Authentic 1983 Infocom Z-machine game</li>
+                <li>✓ Custom GUI with compass navigation</li>
+                <li>✓ Real-time room detection & scene display</li>
+                <li>✓ Full parser - try: OPEN MAILBOX, TAKE LAMP, GO NORTH</li>
+            </ul>
+        </div>
+
+        <div class="game-area">
+            <!-- Left panel: Scene image -->
+            <div class="scene-panel">
+                <div class="scene-image" id="sceneImage">
+                    <div class="placeholder-scene">
+                        <span id="sceneTitle">Loading Game...</span>
+                    </div>
+                </div>
+
+                <!-- Room info -->
+                <div class="room-info">
+                    <h2 id="roomName">Initializing Z-Machine...</h2>
+                    <div class="compass">
+                        <button class="compass-btn north" data-dir="north" title="North (N)">N</button>
+                        <button class="compass-btn south" data-dir="south" title="South (S)">S</button>
+                        <button class="compass-btn east" data-dir="east" title="East (E)">E</button>
+                        <button class="compass-btn west" data-dir="west" title="West (W)">W</button>
+                        <button class="compass-btn ne" data-dir="northeast" title="Northeast (NE)">NE</button>
+                        <button class="compass-btn nw" data-dir="northwest" title="Northwest (NW)">NW</button>
+                        <button class="compass-btn se" data-dir="southeast" title="Southeast (SE)">SE</button>
+                        <button class="compass-btn sw" data-dir="southwest" title="Southwest (SW)">SW</button>
+                    </div>
+                    <div style="margin-top: 10px; text-align: center;">
+                        <button class="compass-btn" data-dir="up" title="Up (U)" style="width: 60px;">UP</button>
+                        <button class="compass-btn" data-dir="down" title="Down (D)" style="width: 60px; margin-left: 10px;">DOWN</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right panel: Text output and input -->
+            <div class="text-panel">
+                <div class="output-area" id="output">
+                    <p class="system">Loading Z-Machine interpreter...</p>
+                </div>
+
+                <div class="input-area">
+                    <span class="prompt">&gt;</span>
+                    <input type="text" id="commandInput" autocomplete="off" autofocus placeholder="Type your command here (e.g., 'open mailbox')">
+                </div>
+
+                <!-- Inventory panel -->
+                <div class="inventory-panel">
+                    <h3>Inventory</h3>
+                    <ul id="inventoryList">
+                        <li class="empty">Initializing...</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick command buttons -->
+        <div class="quick-commands">
+            <button onclick="if(window.game) game.sendCommand('look')">👁️ Look</button>
+            <button onclick="if(window.game) game.sendCommand('inventory')">🎒 Inventory</button>
+            <button onclick="if(window.game) game.sendCommand('score')">📊 Score</button>
+            <button onclick="if(window.game) game.sendCommand('save')">💾 Save</button>
+            <button onclick="if(window.game) game.sendCommand('restore')">📂 Restore</button>
+        </div>
+
+        <div class="info-panel" style="margin-top: 20px;">
+            <h3>Quick Start Tips</h3>
+            <ul>
+                <li><strong>Movement:</strong> Use compass buttons or type: north, s, ne, up, down</li>
+                <li><strong>Objects:</strong> examine mailbox, open window, take lamp, read leaflet</li>
+                <li><strong>Interaction:</strong> open door, turn on lamp, climb tree, enter house</li>
+                <li><strong>Info:</strong> inventory, look, score, diagnose</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Embedded Z-machine game (hidden, we control it via JavaScript) -->
+    <iframe id="gameFrame" class="hidden-iframe" src="../COMPILED/zork1.z3.html"></iframe>
+
+    <div class="integration-status" id="status">
+        Initializing...
+    </div>
+
+    <script src="play-integrated.js"></script>
+</body>
+</html>
